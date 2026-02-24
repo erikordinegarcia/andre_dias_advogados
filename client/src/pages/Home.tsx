@@ -80,7 +80,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-5 gap-6 mb-12">
+          <div className="grid md:grid-cols-5 gap-6 mb-24">
             <a href="/direito-criminal" className="group">
               <Card className="p-6 h-full hover:shadow-lg transition cursor-pointer">
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
