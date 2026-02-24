@@ -15,7 +15,7 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="border-b border-border sticky top-0 z-50 bg-white/95 backdrop-blur">
-        <div className="container py-4 flex items-center justify-between">
+        <div className="container py-4 flex items-center justify-between gap-8">
           <a href="/" className="flex items-center gap-2">
             <img 
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/OPLIhcZDbOGighKU.webp" 
@@ -23,7 +23,7 @@ export default function Home() {
               className="h-20 w-auto"
             />
           </a>
-          <nav className="hidden md:flex gap-8">
+          <nav className="hidden md:flex gap-8 flex-1">
             <a href="/" className="text-sm text-primary font-semibold">Home</a>
             <a href="/direito-criminal" className="text-sm text-foreground hover:text-primary transition">Criminal</a>
             <a href="/direito-trabalhista" className="text-sm text-foreground hover:text-primary transition">Trabalhista</a>
@@ -86,7 +86,7 @@ export default function Home() {
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
                   <Gavel className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-bold text-lg mb-2 display-font">Criminal</h3>
+                <h3 className="font-bold text-base mb-2 display-font">Criminal</h3>
                 <p className="text-sm text-foreground/70 mb-4">
                   Defesa em prisões em flagrante, habeas corpus e recursos
                 </p>
@@ -101,7 +101,7 @@ export default function Home() {
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
                   <Briefcase className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-bold text-lg mb-2 display-font">Trabalhista</h3>
+                <h3 className="font-bold text-base mb-2 display-font">Trabalhista</h3>
                 <p className="text-sm text-foreground/70 mb-4">
                   Demissões injustas, horas extras e assédio moral
                 </p>
@@ -116,7 +116,7 @@ export default function Home() {
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
                   <FileText className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-bold text-lg mb-2 display-font">Cível</h3>
+                <h3 className="font-bold text-base mb-2 display-font">Cível</h3>
                 <p className="text-sm text-foreground/70 mb-4">
                   Contratos, indenizações e questões patrimoniais
                 </p>
@@ -131,7 +131,7 @@ export default function Home() {
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
                   <Heart className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-bold text-lg mb-2 display-font">Família</h3>
+                <h3 className="font-bold text-base mb-2 display-font">Família</h3>
                 <p className="text-sm text-foreground/70 mb-4">
                   Divórcio, guarda e pensão alimentícia
                 </p>
@@ -146,7 +146,7 @@ export default function Home() {
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
                   <Building2 className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-bold text-lg mb-2 display-font">Empresarial</h3>
+                <h3 className="font-bold text-base mb-2 display-font">Empresarial</h3>
                 <p className="text-sm text-foreground/70 mb-4">
                   Contratos, compliance e consultoria
                 </p>
