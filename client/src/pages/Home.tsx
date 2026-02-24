@@ -20,7 +20,7 @@ export default function Home() {
             <img 
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/OPLIhcZDbOGighKU.webp" 
               alt="André Dias Advogados Logo" 
-              className="h-12 w-auto"
+              className="h-16 w-auto"
             />
           </a>
           <nav className="hidden md:flex gap-8">
@@ -43,7 +43,7 @@ export default function Home() {
         <div className="container">
           <div className="max-w-3xl">
             <div className="inline-block mb-4 px-4 py-2 bg-primary/10 rounded-full">
-              <p className="text-sm font-semibold text-primary">✓ Advocacia Full Service na Zona Leste</p>
+              <p className="text-sm font-semibold text-primary">✓ Advocacia Full Service em São Paulo</p>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 display-font leading-tight">
               Sua defesa jurídica em São Paulo
