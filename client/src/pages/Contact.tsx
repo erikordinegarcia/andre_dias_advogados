@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Phone, MapPin, Clock } from "lucide-react";
 import AdvancedContactForm from "@/components/AdvancedContactForm";
+import { MapView } from "@/components/Map";
 
 export default function Contact() {
   const handleWhatsApp = () => {
@@ -107,6 +108,59 @@ export default function Contact() {
                 Emergências: 24 horas
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Map Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4 display-font">
+              Localização do Escritório
+            </h2>
+            <p className="text-lg text-foreground/70">
+              Visite-nos na Zona Leste de São Paulo. Clique no mapa para mais informações e direções.
+            </p>
+          </div>
+
+          <div className="rounded-lg overflow-hidden border border-border shadow-lg h-96">
+            <MapView
+              initialCenter={{ lat: -23.5505, lng: -46.6333 }}
+              initialZoom={15}
+              onMapReady={(map: any) => {
+                // Add marker for the office location
+                const marker = new (window as any).google.maps.Marker({
+                  position: { lat: -23.5505, lng: -46.6333 },
+                  map: map,
+                  title: "André Dias Advogados",
+                  icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+                });
+
+                // Add info window
+                const infoWindow = new (window as any).google.maps.InfoWindow({
+                  content: `
+                    <div style="padding: 10px; font-family: Arial, sans-serif;">
+                      <h3 style="margin: 0 0 5px 0; font-size: 16px; font-weight: bold;">André Dias Advogados</h3>
+                      <p style="margin: 0 0 3px 0; font-size: 13px;">Rua Aldeia dos Machacális, 124</p>
+                      <p style="margin: 0 0 3px 0; font-size: 13px;">Zona Leste - São Paulo/SP</p>
+                      <p style="margin: 0 0 5px 0; font-size: 13px;">CEP: 03000-000</p>
+                      <p style="margin: 0; font-size: 12px; color: #666;">
+                        <strong>Criminal (24h):</strong> (11) 9 3805-9405<br/>
+                        <strong>Demais Áreas:</strong> (11) 5050-6310
+                      </p>
+                    </div>
+                  `
+                });
+
+                marker.addListener("click", () => {
+                  infoWindow.open(map, marker);
+                });
+
+                // Open info window by default
+                infoWindow.open(map, marker);
+              }}
+            />
           </div>
         </div>
       </section>
