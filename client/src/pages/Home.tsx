@@ -15,12 +15,12 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="border-b border-border sticky top-0 z-50 bg-white/95 backdrop-blur">
-        <div className="container py-4 flex items-center justify-between gap-8">
+        <div className="container py-8 flex items-center justify-between gap-8">
           <a href="/" className="flex items-center gap-2">
             <img 
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/OPLIhcZDbOGighKU.webp" 
               alt="André Dias Advogados Logo" 
-              className="h-48 w-auto object-contain"
+              className="h-64 w-auto object-contain"
             />
           </a>
           <nav className="hidden md:flex gap-8 flex-1">
