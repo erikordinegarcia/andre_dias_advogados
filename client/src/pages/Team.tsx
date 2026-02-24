@@ -13,37 +13,37 @@ export default function Team() {
 
   const teamMembers = [
     {
-      name: "André Dias",
-      title: "Fundador e Sócio-Diretor",
-      specialties: ["Direito Criminal", "Direito Empresarial", "Consultoria Jurídica"],
-      bio: "Com 16 anos de experiência, André Dias é especialista em defesa criminal e consultoria empresarial. Formado pela Universidade de São Paulo (USP), possui pós-graduação em Direito Penal. Atua em casos de alta complexidade e é reconhecido pela sua dedicação e resultados excepcionais.",
+      name: "Dr André Dias",
+      title: "Direito Criminal",
+      specialties: ["Prisão em Flagrante", "Habeas Corpus", "Defesa Criminal"],
+      bio: "Especialista em direito criminal com 16 anos de experiência. Dr André Dias é o fundador do escritório e lidera a área de defesa criminal. Atua em casos de alta complexidade e é reconhecido pela sua dedicação e resultados excepcionais em casos criminais.",
       image: "https://private-us-east-1.manuscdn.com/sessionFile/sUBXEfaxEAX7qoudeWkWyp/sandbox/3ZVdAOnn0PimXTld8tXxlx-img-1_1771895704000_na1fn_bGF3eWVyLWFuZHJlLWRpYXM.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvc1VCWEVmYXhFQVg3cW91ZGVXa1d5cC9zYW5kYm94LzNaVmRBT25uMFBpbVhUbGQ4dFh4bHgtaW1nLTFfMTc3MTg5NTcwNDAwMF9uYTFmbl9iR0YzZVdWeUxXRnVaSEpsTFdScFlYTS5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Jv7zvaxo7FPa4GTiZ78mj4NIKVW2DiisfQ9qkacSvhI-XsFJGzMHWsu5TKkJtEcvgqwb1R1qFW2f2sGYEeTFDgX6oW6Zu6uVAhZIswJ4ynnveOZTgS8vkw5uPACi~UqHMgZkDiCfOuvN1f3it-NUalbr46UN3i0eER5~c75DftUDFKP0vjl8GADh3cAdDoZ0N-DtS7x93wfw5a2Aqa8gJik8peHu-BubWnnZJcfTZo2UNi1mT6YH~wuCGm869i8kJV22e0G54DlKjQuaNayJq-R6qGbVRz5L1JY-7X0nPoReeRW1rfCxE0uT-jOuiqsKrDM4-5rMiwyrZMc~cMLwQQ__",
       email: "andre@andrediasadvogados.com.br",
       phone: "+5511938059405"
     },
     {
-      name: "Carolina Silva",
-      title: "Especialista em Direito Trabalhista",
-      specialties: ["Direito Trabalhista", "Direito Cível", "Mediação"],
-      bio: "Carolina Silva possui 12 anos de experiência em direito trabalhista, com especialização em demissões, verbas rescisórias e assédio moral. Formada pela PUC-SP, é conhecida por sua abordagem humanizada e resultados efetivos. Defende os direitos dos trabalhadores com excelência.",
+      name: "Dra Hemilly Samantha",
+      title: "Direito Trabalhista",
+      specialties: ["Demissões Injustas", "Verbas Rescisórias", "Danos Morais"],
+      bio: "Dra Hemilly Samantha é especialista em direito trabalhista, com foco em demissões injustas, verbas rescisórias e casos de assédio moral. Conhecida por sua abordagem humanizada e resultados efetivos, defende os direitos dos trabalhadores com excelência e dedicação.",
       image: "https://private-us-east-1.manuscdn.com/sessionFile/sUBXEfaxEAX7qoudeWkWyp/sandbox/3ZVdAOnn0PimXTld8tXxlx-img-2_1771895704000_na1fn_bGF3eWVyLWNhcm9saW5hLXNpbHZh.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvc1VCWEVmYXhFQVg3cW91ZGVXa1d5cC9zYW5kYm94LzNaVmRBT25uMFBpbVhUbGQ4dFh4bHgtaW1nLTJfMTc3MTg5NTcwNDAwMF9uYTFmbl9iR0YzZVdWeUxXTmhjbTlzYVc1aExYTnBiSFpoLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=jgQ-0I4NEQTfml-j96lLw6ifTYNQHUP8qd7G1T9D~jbCcANyxQyibLylF3YvNMR-2oPHpnr0~Qn6UhylZnbXBJYlXcAARNJpZtmOG0Qq~4~853s4OBW5w2tVQYVvob374LaC5c~TmzW03WfL1KdQHt9HRoDUJbTPtxm8hQPoLnWDmoqzBa~z~8mu4hk7b7AHnCT2UrDj7Cn8evCxqNA0Y-x4TZFdySrc4e-gbifPUVjmm-mEKK4HP4l4Vde6nQG4hmE7FZuBCOFx~4TadwkNt8RqvUq~KKfaTTBVURJen-jcaDY5P9y7Uoz-3fxUGRNnoI9ka7orXPIUmUjdWV-Flw__",
       email: "carolina@andrediasadvogados.com.br",
       phone: "+551150506310"
     },
     {
-      name: "Fernando Santos",
-      title: "Especialista em Direito Cível",
-      specialties: ["Direito Cível", "Contratos", "Indenizações"],
-      bio: "Fernando Santos é um renomado especialista em direito cível com 18 anos de experiência. Formado pela Universidade Mackenzie, possui vasta experiência em ações de cobrança, indenizações por danos morais e questões contratuais. Seus casos têm alta taxa de sucesso.",
+      name: "Dr Wilson Gonçalves",
+      title: "Direito Civil, Família e Previdenciário",
+      specialties: ["Direito Civil", "Direito de Família", "Direito Previdenciário"],
+      bio: "Dr Wilson Gonçalves é especialista em direito civil, família e previdenciário. Com vasta experiência em ações de cobrança, indenizações por danos morais, questões contratuais, divórcios e questões previdenciárias. Seus casos têm alta taxa de sucesso.",
       image: "https://private-us-east-1.manuscdn.com/sessionFile/sUBXEfaxEAX7qoudeWkWyp/sandbox/3ZVdAOnn0PimXTld8tXxlx-img-3_1771895707000_na1fn_bGF3eWVyLWZlcm5hbmRvLXNhbnRvcw.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvc1VCWEVmYXhFQVg3cW91ZGVXa1d5cC9zYW5kYm94LzNaVmRBT25uMFBpbVhUbGQ4dFh4bHgtaW1nLTNfMTc3MTg5NTcwNzAwMF9uYTFmbl9iR0YzZVdWeUxXWmxjbTVoYm1SdkxYTmhiblJ2Y3cucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=NYI22Lbd81JxJb8ArEBWGBwnYKDh7~wfNXM6NdX-~LV1xW7lYZCXAo0JJV8p-Dv~tM3Sn3lnufeIdvNwjSjnq06DA4JyWIjFrRvqlxOG3vMdm6275WouXcGk588uLhfyV28h2~eDZ6oaFCyxMJ3vg3yCqV16zdUw5UxarWnWSNxlygpKrh4tneRaTwgvo6FKpMTpML2QBB8vk5xgL6U2~ZYBrzkgsGJ1GwTJCD0I1Wp9jfBn6Ympxii5IAmtxbPSpih2F9FirRhhiAvDTUq4poTgNZcQKhtmwL5IoTXIsVU-zZpyQWMGuGSRRwrAiR-tAy4pu82dsjpbP-LqtMVDgg__",
       email: "fernando@andrediasadvogados.com.br",
       phone: "+551150506310"
     },
     {
-      name: "Isabella Costa",
-      title: "Especialista em Direito de Família",
-      specialties: ["Direito de Família", "Divórcio", "Guarda de Filhos"],
-      bio: "Isabella Costa é especialista em direito de família com 10 anos de experiência. Formada pela UNESP, possui especialização em mediação familiar. É conhecida por sua empatia e capacidade de resolver conflitos familiares de forma justa e humanizada.",
+      name: "Bianca",
+      title: "Assistente",
+      specialties: ["Suporte Administrativo", "Atendimento ao Cliente", "Documentação"],
+      bio: "Bianca é assistente do escritório, responsável pelo suporte administrativo, atendimento ao cliente e documentação. Contribui para o funcionamento eficiente do escritório e para a melhor experiência dos clientes.",
       image: "https://private-us-east-1.manuscdn.com/sessionFile/sUBXEfaxEAX7qoudeWkWyp/sandbox/3ZVdAOnn0PimXTld8tXxlx-img-4_1771895706000_na1fn_bGF3eWVyLWlzYWJlbGxhLWNvc3Rh.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvc1VCWEVmYXhFQVg3cW91ZGVXa1d5cC9zYW5kYm94LzNaVmRBT25uMFBpbVhUbGQ4dFh4bHgtaW1nLTRfMTc3MTg5NTcwNjAwMF9uYTFmbl9iR0YzZVdWeUxXbHpZV0psYkd4aExXTnZjM1JoLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=YvglGas-bRN5h0A-4aPjEfOemYW0BeiKOZ38tWHgY23Mb0EW0Xr35ajovERpUpqjLK2vZtx5bXLrq9tkrd99CtSzPLJRlbdMZN2PdZQ9VembJr47jnfDuCxQTluQ7oCdYa-2G~JqbUu~nsF3l6bF9ZjZYJRl~3q8RY~JTRf98WAPD61jUJq0LzU34Eiv~5nX8LIpiyGB8mE4Z0NqxObEn2aa5RueySDEtcfNw0bWDp0UIc-XYP8~sb-Col521dlWHvEzx90DVdJUWlZGfaWJcLZy6HbUYZxWGYJ6DN5TX4DdYvH7blbIChOFwIzXBYLaYwVGPvi509d7Y62Wr~k8fA__",
       email: "isabella@andrediasadvogados.com.br",
       phone: "+551150506310"
