@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { CheckCircle2, Phone, MessageCircle } from "lucide-react";
+import FAQSection from "@/components/FAQSection";
 
 export default function CriminalPage() {
   const handleWhatsApp = () => {
@@ -9,6 +10,54 @@ export default function CriminalPage() {
 
   const handlePhone = () => {
     window.location.href = "tel:+5511938059405";
+  };
+
+  const faqItems = [
+    {
+      question: "O que fazer se for preso em flagrante?",
+      answer: "Se você for preso em flagrante, tem direito a ser informado sobre seus direitos, incluindo o direito de permanecer em silêncio e de ter um advogado. Entre em contato conosco imediatamente. Atuamos 24 horas em delegacias para solicitar sua liberdade provisória na audiência de custódia, que deve ocorrer em até 24 horas após a prisão."
+    },
+    {
+      question: "Qual é a diferença entre prisão em flagrante e preventiva?",
+      answer: "A prisão em flagrante ocorre no momento do crime ou logo depois, sem necessidade de ordem judicial. A prisão preventiva é decretada por um juiz durante o processo, quando há risco de fuga ou de reiteração criminosa. Ambas podem ser contestadas através de habeas corpus ou pedidos de liberdade provisória."
+    },
+    {
+      question: "Como funciona o habeas corpus?",
+      answer: "O habeas corpus é um remédio jurídico que protege contra prisões ilegais ou abusivas. Pode ser impetrado quando há violação do direito de liberdade. Atuamos em habeas corpus preventivos (antes da prisão) e repressivos (após a prisão). O processo é rápido e pode resultar na sua libertação imediata."
+    },
+    {
+      question: "Quanto tempo leva um processo criminal?",
+      answer: "O tempo varia conforme a complexidade do caso. Processos simples podem levar 6 meses a 1 ano. Casos mais complexos podem levar 2 a 5 anos ou mais. Atuamos em todas as fases: inquérito, denúncia, instrução processual, julgamento e recursos, buscando sempre agilizar o processo."
+    },
+    {
+      question: "Posso ser condenado sem ir ao julgamento?",
+      answer: "Você tem direito a julgamento. Porém, em alguns casos, é possível fazer acordos (como confissão qualificada) que podem resultar em redução de pena. Analisamos cada caso para determinar a melhor estratégia de defesa, seja em julgamento ou através de negociações."
+    },
+    {
+      question: "O que é audiência de custódia?",
+      answer: "A audiência de custódia é obrigatória e deve ocorrer em até 24 horas após a prisão em flagrante. Nela, o juiz avalia se a prisão foi legal e se você deve permanecer preso ou ser liberado. Atuamos nessa audiência apresentando argumentos para sua libertação ou para redução de medidas cautelares."
+    },
+    {
+      question: "Quais são os crimes mais graves?",
+      answer: "Crimes como homicídio, latrocínio, estupro, tráfico de drogas e roubo qualificado são considerados graves. Esses crimes têm penas maiores e procedimentos processuais mais complexos. Nossa experiência em defesa de crimes graves permite oferecer estratégia robusta para sua defesa."
+    },
+    {
+      question: "Posso ser defendido por advogado particular e defensor público?",
+      answer: "Você pode escolher um advogado particular. Se não tiver condições financeiras, tem direito à Defensoria Pública. Alguns clientes optam por ter ambos atuando em conjunto. Oferecemos consultoria especializada e atuação completa em sua defesa criminal."
+    }
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
   };
 
   return (
@@ -154,8 +203,21 @@ export default function CriminalPage() {
               </li>
             </ul>
           </div>
+        </div>
+      </section>
 
-          <div className="bg-white border border-border p-8 rounded-lg">
+      {/* FAQ Section */}
+      <FAQSection 
+        title="Perguntas Frequentes sobre Direito Criminal"
+        description="Respostas para as dúvidas mais comuns sobre processos criminais, prisões e seus direitos."
+        items={faqItems}
+        schemaData={faqSchema}
+      />
+
+      {/* CTA Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container max-w-3xl">
+          <div className="bg-primary/5 p-8 rounded-lg">
             <h3 className="text-2xl font-bold text-foreground mb-4 display-font">
               Precisa de ajuda agora?
             </h3>

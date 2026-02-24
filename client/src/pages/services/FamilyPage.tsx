@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { CheckCircle2, Phone, MessageCircle } from "lucide-react";
+import FAQSection from "@/components/FAQSection";
 
 export default function FamilyPage() {
   const handleWhatsApp = () => {
@@ -9,6 +10,54 @@ export default function FamilyPage() {
 
   const handlePhone = () => {
     window.location.href = "tel:+5511950506310";
+  };
+
+  const faqItems = [
+    {
+      question: "Como fazer um divórcio consensual?",
+      answer: "Se há acordo entre os cônjuges sobre tudo (bens, filhos, pensão), o divórcio é rápido e simples. Pode ser feito em cartório (sem juiz) ou judicialmente. Documentação necessária: certidão de casamento, documentos pessoais, comprovante de residência. Levamos 1 a 3 meses para conclusão."
+    },
+    {
+      question: "Qual é a diferença entre guarda compartilhada e unilateral?",
+      answer: "Guarda compartilhada: ambos os pais têm direitos e responsabilidades iguais sobre os filhos. Guarda unilateral: um dos pais tem a guarda, o outro tem direito de visitação. A lei prefere guarda compartilhada, mas analisamos cada caso para determinar o melhor para os filhos."
+    },
+    {
+      question: "Como é calculada a pensão alimentícia?",
+      answer: "A pensão é calculada considerando: renda de ambos os pais, número de filhos, despesas com educação, saúde e moradia. Geralmente é entre 15% a 30% da renda do pai/mãe que paga. Pode ser revisada se houver mudança de renda ou circunstâncias."
+    },
+    {
+      question: "Posso cobrar pensão alimentícia atrasada?",
+      answer: "Sim, você pode cobrar pensão atrasada com juros e correção monetária. O prazo para cobrar é de 5 anos. Se o devedor não pagar, pode haver penhora de bens, bloqueio de contas e até prisão civil em alguns casos."
+    },
+    {
+      question: "Como é feita a divisão de bens no divórcio?",
+      answer: "Bens adquiridos durante o casamento são divididos igualmente (regime de comunhão parcial). Bens anteriores ao casamento ou recebidos por herança/doação são do cônjuge que os adquiriu. Analisamos cada bem para garantir divisão justa."
+    },
+    {
+      question: "Qual é o prazo para divorciar?",
+      answer: "Divórcio consensual: 1 a 3 meses. Divórcio litigioso: 1 a 3 anos, dependendo da complexidade. Atuamos para agilizar o processo sem prejudicar seus direitos. Em casos urgentes, podemos solicitar procedimentos acelerados."
+    },
+    {
+      question: "Posso perder a guarda dos meus filhos?",
+      answer: "Sim, se há negligência, abuso ou ambiente inadequado. O juiz prioriza o melhor interesse dos filhos. Se você está em risco de perder a guarda, procure-nos imediatamente. Temos estratégia para proteger seus direitos parentais."
+    },
+    {
+      question: "O que é mediação familiar?",
+      answer: "Mediação é um processo onde um mediador neutro ajuda a família a resolver conflitos de forma amigável. É mais humanizado que ação judicial, menos custoso e mais rápido. Muitos casos de divórcio e guarda são resolvidos em mediação."
+    }
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
   };
 
   return (
@@ -166,8 +215,21 @@ export default function FamilyPage() {
               </li>
             </ul>
           </div>
+        </div>
+      </section>
 
-          <div className="bg-white border border-border p-8 rounded-lg">
+      {/* FAQ Section */}
+      <FAQSection 
+        title="Perguntas Frequentes sobre Direito de Família"
+        description="Respostas para as dúvidas mais comuns sobre divórcio, guarda, pensão alimentícia e mediação familiar."
+        items={faqItems}
+        schemaData={faqSchema}
+      />
+
+      {/* CTA Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container max-w-3xl">
+          <div className="bg-primary/5 p-8 rounded-lg">
             <h3 className="text-2xl font-bold text-foreground mb-4 display-font">
               Passando por uma situação familiar difícil?
             </h3>

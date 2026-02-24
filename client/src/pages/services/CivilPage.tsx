@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { CheckCircle2, Phone, MessageCircle } from "lucide-react";
+import FAQSection from "@/components/FAQSection";
 
 export default function CivilPage() {
   const handleWhatsApp = () => {
@@ -9,6 +10,54 @@ export default function CivilPage() {
 
   const handlePhone = () => {
     window.location.href = "tel:+5511950506310";
+  };
+
+  const faqItems = [
+    {
+      question: "Como cobrar uma dívida na Justiça?",
+      answer: "Existem dois caminhos: ação de cobrança (para valores menores) e ação de execução (com título executivo). Ambas permitem recuperar o valor devido com juros e correção monetária. Analisamos seu caso para determinar o melhor procedimento e maximizar a recuperação."
+    },
+    {
+      question: "Qual é o prazo para cobrar uma dívida?",
+      answer: "O prazo é de até 20 anos para dívidas comuns e 5 anos para dívidas de pessoa jurídica. Após esse período, prescreve o direito de cobrar. Se você tem uma dívida para receber, não perca tempo: procure-nos para ação imediata."
+    },
+    {
+      question: "Posso receber indenização por danos morais?",
+      answer: "Sim, se sofreu dano moral (humilhação, constrangimento, lesão à honra). O valor varia conforme a intensidade do dano. Casos de discriminação, difamação, calúnia e injúria geram direito a indenização. Buscamos maximizar o valor com base em jurisprudência."
+    },
+    {
+      question: "Como funciona a mediação de conflitos?",
+      answer: "A mediação é um processo onde um mediador neutro ajuda as partes a chegarem a um acordo. É mais rápido e menos custoso que ação judicial. Muitos casos podem ser resolvidos em 1 a 3 sessões. Oferecemos consultoria completa em mediação."
+    },
+    {
+      question: "Tenho direito a indenização por acidente?",
+      answer: "Sim, se o acidente foi causado por negligência de terceiro. Você pode receber indenização por danos materiais (despesas médicas, perda de renda) e morais (sofrimento, trauma). Analisamos responsabilidade e buscamos máxima indenização."
+    },
+    {
+      question: "Como provar um contrato descumprido?",
+      answer: "Provas incluem: contrato escrito, mensagens, e-mails, transferências bancárias, testemunhas. Quanto mais documentação, melhor sua posição. Acionamos na Justiça para condenar o devedor ao cumprimento da obrigação ou ao pagamento de indenização."
+    },
+    {
+      question: "Qual é o custo de uma ação cível?",
+      answer: "Custos incluem: taxa de distribuição (proporcional ao valor da ação), honorários advocatícios (combinamos com você), e possíveis perícias. Em muitos casos, o vencedor recupera parte dos custos do vencido. Oferecemos consultoria sobre custos antes de iniciar ação."
+    },
+    {
+      question: "Quanto tempo leva uma ação cível?",
+      answer: "Ações simples podem levar 6 meses a 1 ano. Ações complexas podem levar 2 a 5 anos ou mais. Atuamos em todas as instâncias para agilizar o processo. Usamos estratégias para acelerar sem prejudicar sua defesa."
+    }
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
   };
 
   return (
@@ -166,8 +215,21 @@ export default function CivilPage() {
               </li>
             </ul>
           </div>
+        </div>
+      </section>
 
-          <div className="bg-white border border-border p-8 rounded-lg">
+      {/* FAQ Section */}
+      <FAQSection 
+        title="Perguntas Frequentes sobre Direito Cível"
+        description="Respostas para as dúvidas mais comuns sobre contratos, indenizações e ações cíveis."
+        items={faqItems}
+        schemaData={faqSchema}
+      />
+
+      {/* CTA Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container max-w-3xl">
+          <div className="bg-primary/5 p-8 rounded-lg">
             <h3 className="text-2xl font-bold text-foreground mb-4 display-font">
               Tem um contrato descumprido ou sofreu danos?
             </h3>

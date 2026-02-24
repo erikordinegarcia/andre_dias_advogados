@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { CheckCircle2, Phone, MessageCircle } from "lucide-react";
+import FAQSection from "@/components/FAQSection";
 
 export default function CorporatePage() {
   const handleWhatsApp = () => {
@@ -9,6 +10,54 @@ export default function CorporatePage() {
 
   const handlePhone = () => {
     window.location.href = "tel:+5511950506310";
+  };
+
+  const faqItems = [
+    {
+      question: "Como constituir uma empresa?",
+      answer: "Processo envolve: escolher tipo de empresa (MEI, PJ, LTDA, SA), registrar na Junta Comercial, obter CNPJ, abrir conta bancária, registrar na Prefeitura e na Receita Federal. Oferecemos orientação completa para escolher a melhor estrutura tributária e societária para seu negócio."
+    },
+    {
+      question: "Qual é a melhor forma jurídica para minha empresa?",
+      answer: "Depende do tamanho, faturamento e atividade. MEI é ideal para autônomos. PJ para profissionais liberais. LTDA para pequenas/médias empresas. SA para grandes empresas. Analisamos sua situação para recomendar a forma mais vantajosa fiscalmente."
+    },
+    {
+      question: "Como elaborar um contrato comercial seguro?",
+      answer: "Contrato deve incluir: partes, objeto, prazos, valores, condições de pagamento, direitos e deveres, cláusulas de rescisão e resolução de conflitos. Elaboramos contratos personalizados que protegem seus interesses e evitam litígios futuros."
+    },
+    {
+      question: "O que é compliance jurídico?",
+      answer: "Compliance é conformidade com leis, regulamentações e boas práticas. Inclui: políticas internas, treinamento de funcionários, auditoria, documentação. Protege sua empresa de multas, processos e danos à reputação. Implementamos programas de compliance adaptados ao seu negócio."
+    },
+    {
+      question: "Como funciona uma fusão ou aquisição?",
+      answer: "Processo envolve: análise da empresa alvo (due diligence), negociação de termos, elaboração de contrato, aprovação de sócios/acionistas, transferência de ativos e passivos. Atuamos em todas as fases para garantir operação segura e vantajosa."
+    },
+    {
+      question: "Posso ter conflito com meu sócio?",
+      answer: "Sim, conflitos entre sócios são comuns. Podem ser resolvidos por mediação, arbitragem ou ação judicial. Se há impasse, pode resultar em exclusão de sócio, dissolução ou venda de participação. Oferecemos consultoria para resolver conflitos de forma estratégica."
+    },
+    {
+      question: "Como proteger a propriedade intelectual da minha empresa?",
+      answer: "Proteção inclui: registro de marca, patente, direito autoral, segredo de negócio. Cada tipo de proteção tem procedimento específico. Orientamos sobre qual tipo de proteção é mais adequado para seus ativos intelectuais."
+    },
+    {
+      question: "Qual é o custo de consultoria jurídica empresarial?",
+      answer: "Custos variam conforme a complexidade e escopo do trabalho. Oferecemos consultoria por hora, projeto ou retainer (mensal). Discutimos opções de preço e estrutura que se adequem ao seu orçamento e necessidades."
+    }
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
   };
 
   return (
@@ -166,8 +215,21 @@ export default function CorporatePage() {
               </li>
             </ul>
           </div>
+        </div>
+      </section>
 
-          <div className="bg-white border border-border p-8 rounded-lg">
+      {/* FAQ Section */}
+      <FAQSection 
+        title="Perguntas Frequentes sobre Direito Empresarial"
+        description="Respostas para as dúvidas mais comuns sobre constituição de empresas, contratos e consultoria jurídica."
+        items={faqItems}
+        schemaData={faqSchema}
+      />
+
+      {/* CTA Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container max-w-3xl">
+          <div className="bg-primary/5 p-8 rounded-lg">
             <h3 className="text-2xl font-bold text-foreground mb-4 display-font">
               Sua empresa precisa de consultoria jurídica?
             </h3>
