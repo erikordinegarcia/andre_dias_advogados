@@ -3,12 +3,12 @@ import { Card } from "@/components/ui/card";
 import { MessageCircle, Phone, ArrowRight, Shield, Users, Zap } from "lucide-react";
 
 export default function Home() {
-  const handleWhatsApp = () => {
-    window.open("https://wa.me/5511938059405?text=Olá%2C%20gostaria%20de%20uma%20consulta%20jurídica", "_blank");
+  const handleWhatsAppGeral = () => {
+    window.open("https://wa.me/551150506310?text=Olá%2C%20gostaria%20de%20uma%20consulta%20jurídica", "_blank");
   };
 
-  const handlePhone = () => {
-    window.location.href = "tel:+5511938059405";
+  const handleWhatsAppCriminal = () => {
+    window.open("https://wa.me/5511938059405?text=Olá%2C%20preciso%20de%20atendimento%20criminal%20urgente", "_blank");
   };
 
   return (
@@ -31,7 +31,7 @@ export default function Home() {
             <a href="/direito-de-familia" className="text-sm text-foreground hover:text-primary transition">Família</a>
             <a href="/direito-empresarial" className="text-sm text-foreground hover:text-primary transition">Empresarial</a>
           </nav>
-          <Button onClick={handleWhatsApp} size="sm" className="gap-2">
+          <Button onClick={handleWhatsAppGeral} size="sm" className="gap-2 bg-green-500 hover:bg-green-600 text-white">
             <MessageCircle className="w-4 h-4" />
             WhatsApp
           </Button>
@@ -52,13 +52,13 @@ export default function Home() {
               Especialistas em Direito Criminal, Trabalhista, Cível, Família e Empresarial. 16 anos de experiência defendendo seus direitos com excelência e dedicação.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" onClick={handleWhatsApp} className="gap-2">
+              <Button size="lg" onClick={handleWhatsAppGeral} className="gap-2 bg-green-500 hover:bg-green-600 text-white">
                 <MessageCircle className="w-5 h-5" />
                 Fale no WhatsApp
               </Button>
-              <Button size="lg" variant="outline" onClick={handlePhone} className="gap-2">
-                <Phone className="w-5 h-5" />
-                (11) 9 3805-9405
+              <Button size="lg" onClick={handleWhatsAppCriminal} className="gap-2 bg-red-600 hover:bg-red-700 text-white">
+                <MessageCircle className="w-5 h-5" />
+                CRIMINAL 24 HORAS
               </Button>
             </div>
             <p className="text-sm text-foreground/60 mt-6">
@@ -410,13 +410,13 @@ export default function Home() {
             Entre em contato conosco para uma consulta especializada. Temos soluções para sua situação.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" onClick={handleWhatsApp} className="gap-2">
+            <Button size="lg" onClick={handleWhatsAppGeral} className="gap-2 bg-green-500 hover:bg-green-600 text-white">
               <MessageCircle className="w-5 h-5" />
-              Enviar Mensagem WhatsApp
+              Fale no WhatsApp
             </Button>
-            <Button size="lg" variant="outline" onClick={handlePhone} className="gap-2">
-              <Phone className="w-5 h-5" />
-              Ligar Agora
+            <Button size="lg" onClick={handleWhatsAppCriminal} className="gap-2 bg-red-600 hover:bg-red-700 text-white">
+              <MessageCircle className="w-5 h-5" />
+              CRIMINAL 24 HORAS
             </Button>
           </div>
         </div>
