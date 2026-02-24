@@ -88,11 +88,16 @@ export default function Contact() {
                 </div>
               </div>
               <h3 className="text-xl font-bold text-foreground mb-2 display-font">Localização</h3>
-              <p className="text-foreground/70">
-                Rua Aldeia dos Machacális, 124<br />
+              <a 
+                href="https://www.google.com/maps/search/Rua+Aldeia+dos+Machacalis,+124,+Zona+Leste,+S%C3%A3o+Paulo,+SP" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-foreground/70 hover:text-primary transition cursor-pointer block"
+              >
+                Rua Aldeia dos Machacalis, 124<br />
                 Zona Leste - São Paulo/SP<br />
                 CEP: 03000-000
-              </p>
+              </a>
             </div>
 
             <div className="text-center">
