@@ -16,8 +16,12 @@ export default function Home() {
       {/* Header */}
       <header className="border-b border-border sticky top-0 z-50 bg-white/95 backdrop-blur">
         <div className="container py-4 flex items-center justify-between">
-          <a href="/" className="text-2xl font-bold text-primary display-font">
-            André Dias Advogados
+          <a href="/" className="flex items-center gap-2">
+            <img 
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/OPLIhcZDbOGighKU.webp" 
+              alt="André Dias Advogados Logo" 
+              className="h-12 w-auto"
+            />
           </a>
           <nav className="hidden md:flex gap-8">
             <a href="/" className="text-sm text-primary font-semibold">Home</a>
