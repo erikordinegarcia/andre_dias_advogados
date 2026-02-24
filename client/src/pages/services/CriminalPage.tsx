@@ -123,6 +123,11 @@ export default function CriminalPage() {
                   <p className="text-foreground/80">
                     Atuação imediata em delegacias e fóruns. Pedidos de liberdade provisória em audiências de custódia com argumentação técnica e estratégica.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Audiência de Custódia</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Liberdade Provisória</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Atendimento 24h</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -133,8 +138,13 @@ export default function CriminalPage() {
                 <div>
                   <h3 className="font-bold text-lg mb-2 display-font">Habeas Corpus</h3>
                   <p className="text-foreground/80">
-                    Proteção contra prisões ilegais. Impetração de habeas corpus em primeira e segunda instância, com atuação em tribunais superiores quando necessário.
+                    Proteção contra prisões ilegais. Impetration de habeas corpus em primeira e segunda instância, com atuação em tribunais superiores quando necessário.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Habeas Corpus Preventivo</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Habeas Corpus Repressivo</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Tribunal do Júri</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -147,6 +157,11 @@ export default function CriminalPage() {
                   <p className="text-foreground/80">
                     Defesa técnica em todas as fases do processo penal: inquérito policial, denúncia, instrução processual, julgamento e recursos.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Crimes Graves</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Crimes Leves</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Tráfico de Drogas</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -157,8 +172,13 @@ export default function CriminalPage() {
                 <div>
                   <h3 className="font-bold text-lg mb-2 display-font">Mandado de Segurança</h3>
                   <p className="text-foreground/80">
-                    Proteção contra abusos de autoridade. Impetração de mandado de segurança contra decisões ilegais de juízes, delegados e órgãos administrativos.
+                    Proteção contra abusos de autoridade. Impetration de mandado de segurança contra decisões ilegais de juízes, delegados e órgãos administrativos.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Abuso de Autoridade</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Decisões Ilegais</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Direitos Constitucionais</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -171,6 +191,11 @@ export default function CriminalPage() {
                   <p className="text-foreground/80">
                     Atuação em segunda instância (Tribunal de Justiça), terceira instância (STJ) e quarta instância (STF) em Brasília.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Apelação</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Recurso Especial</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Recurso Extraordinário</span>
+                  </div>
                 </div>
               </div>
             </Card>

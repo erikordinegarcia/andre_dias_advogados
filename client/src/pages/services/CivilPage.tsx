@@ -123,6 +123,11 @@ export default function CivilPage() {
                   <p className="text-foreground/80">
                     Ação para cobrar obrigações contratuais não cumpridas. Análise de cláusulas, negociação e ação judicial quando necessário.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Contratos Comerciais</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Contratos de Serviços</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Rescisão Contratual</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -133,8 +138,13 @@ export default function CivilPage() {
                 <div>
                   <h3 className="font-bold text-lg mb-2 display-font">Indenizações por Danos</h3>
                   <p className="text-foreground/80">
-                    Cobrança de indenizações por danos morais e materiais. Acidentes, responsabilidade civil e reparação de prejuízos.
+                    Cobreça de indenizações por danos morais e materiais. Acidentes, responsabilidade civil e reparação de prejuízos.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Danos Morais</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Danos Materiais</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Responsabilidade Civil</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -147,6 +157,11 @@ export default function CivilPage() {
                   <p className="text-foreground/80">
                     Proteção e defesa de patrimônio. Ações possessórias, usucapião, divisão de bens e questões imobiliárias.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Usucapião</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Ações Possessórias</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Divisão de Bens</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -155,10 +170,15 @@ export default function CivilPage() {
               <div className="flex gap-4">
                 <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-bold text-lg mb-2 display-font">Ações de Cobrança</h3>
+                  <h3 className="font-bold text-lg mb-2 display-font">Ações de Cobreça</h3>
                   <p className="text-foreground/80">
-                    Cobrança de dívidas, empréstimos não pagos e valores em aberto. Ações de execução e recuperação de crédito.
+                    Cobreça de dívidas, empréstimos não pagos e valores em aberto. Ações de execução e recuperação de crédito.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Cobreça de Dívidas</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Ação Executória</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Recuperação de Crédito</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -171,6 +191,11 @@ export default function CivilPage() {
                   <p className="text-foreground/80">
                     Defesa de direitos do consumidor. Ações contra práticas abusivas, produtos defeituosos e serviços inadequados.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Práticas Abusivas</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Produtos Defeituosos</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Serviços Inadequados</span>
+                  </div>
                 </div>
               </div>
             </Card>

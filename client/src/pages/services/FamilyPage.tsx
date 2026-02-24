@@ -121,8 +121,13 @@ export default function FamilyPage() {
                 <div>
                   <h3 className="font-bold text-lg mb-2 display-font">Divórcio Consensual</h3>
                   <p className="text-foreground/80">
-                    Divórcio rápido e amigável quando há acordo entre os cônjuges. Documentação simplificada e sem necessidade de ação judicial.
+                    Divórcio rápido e amível quando há acordo entre os cônjuges. Documentação simplificada e sem necessidade de ação judicial.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Divórcio Extrajudicial</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Acordo de Divisão</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Documentação</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -135,6 +140,11 @@ export default function FamilyPage() {
                   <p className="text-foreground/80">
                     Divórcio quando não há acordo. Defesa de seus direitos em relação à divisão de bens, guarda e pensão.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Divórcio Judicial</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Defesa de Direitos</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Recursos</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -147,6 +157,11 @@ export default function FamilyPage() {
                   <p className="text-foreground/80">
                     Guarda compartilhada ou unilateral. Proteção dos direitos dos filhos e definição de regime de visitação.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Guarda Compartilhada</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Guarda Unilateral</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Regime de Visitação</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -157,8 +172,13 @@ export default function FamilyPage() {
                 <div>
                   <h3 className="font-bold text-lg mb-2 display-font">Pensão Alimentícia</h3>
                   <p className="text-foreground/80">
-                    Fixação, revisão e cobrança de pensão alimentícia. Proteção dos direitos dos filhos e cônjuges dependentes.
+                    Fixação, revisão e cobreça de pensão alimentícia. Proteção dos direitos dos filhos e cônjuges dependentes.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Fixação</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Revisão</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Cobreça</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -171,6 +191,11 @@ export default function FamilyPage() {
                   <p className="text-foreground/80">
                     Divisão justa do patrimônio acumulado durante o casamento. Análise completa de bens e direitos.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Regime de Bens</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Divisão Patrimonial</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Direitos Adquiridos</span>
+                  </div>
                 </div>
               </div>
             </Card>

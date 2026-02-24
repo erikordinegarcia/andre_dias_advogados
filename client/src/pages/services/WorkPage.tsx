@@ -123,6 +123,11 @@ export default function WorkPage() {
                   <p className="text-foreground/80">
                     Defesa contra demissões sem justa causa. Análise completa do processo de rescisão e recuperação de direitos trabalhistas.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Rescisão Sem Justa Causa</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Reintegração</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Indenização</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -135,6 +140,11 @@ export default function WorkPage() {
                   <p className="text-foreground/80">
                     Cálculo preciso de todas as verbas devidas: saldo de salário, 13º proporcional, férias, FGTS e multa de 40%.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">13º Salário</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Férias</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">FGTS + Multa 40%</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -147,6 +157,11 @@ export default function WorkPage() {
                   <p className="text-foreground/80">
                     Proteção contra assédio moral, discriminação e perseguição no ambiente de trabalho. Ação por danos morais.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Assédio Moral</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Discriminação</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Danos Morais</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -157,8 +172,13 @@ export default function WorkPage() {
                 <div>
                   <h3 className="font-bold text-lg mb-2 display-font">Horas Extras e Adicional Noturno</h3>
                   <p className="text-foreground/80">
-                    Cobrança de horas extras não pagas, adicional noturno e diferenças salariais. Cálculo com correção monetária.
+                    Cobreça de horas extras não pagas, adicional noturno e diferenças salariais. Cálculo com correção monetária.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Horas Extras</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Adicional Noturno</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Diferenças Salariais</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -171,6 +191,11 @@ export default function WorkPage() {
                   <p className="text-foreground/80">
                     Quando o empregador descumpre obrigações legais, o trabalhador pode "demitir" a empresa e receber como demitido sem justa causa.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Descumprimento Legal</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Demissão da Empresa</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Direitos Trabalhistas</span>
+                  </div>
                 </div>
               </div>
             </Card>

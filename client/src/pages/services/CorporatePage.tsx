@@ -123,6 +123,11 @@ export default function CorporatePage() {
                   <p className="text-foreground/80">
                     Orientação completa na constituição de empresas. Escolha do regime tributário, estrutura societária e documentação necessária.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">MEI/PJ</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Regime Tributário</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Documentação</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -135,6 +140,11 @@ export default function CorporatePage() {
                   <p className="text-foreground/80">
                     Elaboração, revisão e negociação de contratos comerciais. Proteção de seus interesses em transações e parcerias.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Contratos B2B</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Parcerias</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Negociação</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -147,6 +157,11 @@ export default function CorporatePage() {
                   <p className="text-foreground/80">
                     Implementação de programas de compliance. Conformidade com leis, regulamentações e boas práticas corporativas.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Conformidade Legal</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Programa de Compliance</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Boas Práticas</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -159,6 +174,11 @@ export default function CorporatePage() {
                   <p className="text-foreground/80">
                     Consultoria em processos de fusão, aquisição e incorporação de empresas. Due diligence e estruturação de operações.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Due Diligence</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Estruturação</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Negociação</span>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -171,6 +191,11 @@ export default function CorporatePage() {
                   <p className="text-foreground/80">
                     Resolução de conflitos entre sócios. Alteração de contrato social, dissolução de sociedades e sucessão empresarial.
                   </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Conflitos entre Sócios</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Alteração Contratual</span>
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Sucessão Empresarial</span>
+                  </div>
                 </div>
               </div>
             </Card>
