@@ -216,6 +216,90 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Our Team Section */}
+      <section className="py-20 md:py-32 bg-white">
+        <div className="container">
+          <div className="text-center mb-16">
+            <div className="inline-block mb-4 px-4 py-2 bg-primary/10 rounded-full">
+              <p className="text-sm font-semibold text-primary">👥 NOSSA EQUIPE</p>
+            </div>
+            <h2 className="text-4xl font-bold text-foreground mb-4 display-font">
+              Conheça os Especialistas
+            </h2>
+            <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
+              Profissionais experientes e dedicados ao seu caso
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-4 gap-8">
+            {/* Dr André Dias */}
+            <div className="text-center group">
+              <div className="mb-4 overflow-hidden rounded-full w-40 h-40 mx-auto border-4 border-primary/20 group-hover:border-primary/50 transition">
+                <img 
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/KoYfZadciVVBxFaK.jpeg" 
+                  alt="Dr André Dias" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition"
+                />
+              </div>
+              <h3 className="font-bold text-lg text-foreground mb-1 display-font">Dr André Dias</h3>
+              <p className="text-sm text-primary font-semibold mb-3">DIREITO CRIMINAL</p>
+              <p className="text-sm text-foreground/70">Especialista em defesa criminal com casos de alta complexidade</p>
+            </div>
+
+            {/* Dr Wilson Gonçalves */}
+            <div className="text-center group">
+              <div className="mb-4 overflow-hidden rounded-full w-40 h-40 mx-auto border-4 border-primary/20 group-hover:border-primary/50 transition">
+                <img 
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/vFUdDZKPlmQDogZy.png" 
+                  alt="Dr Wilson Gonçalves" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition"
+                />
+              </div>
+              <h3 className="font-bold text-lg text-foreground mb-1 display-font">Dr Wilson Gonçalves</h3>
+              <p className="text-sm text-primary font-semibold mb-3">DIREITO CIVIL, FAMÍLIA E PREVIDENCIÁRIO</p>
+              <p className="text-sm text-foreground/70">Especialista em ações de cobrança e questões familiares</p>
+            </div>
+
+            {/* Dra Hemilly Samantha */}
+            <div className="text-center group">
+              <div className="mb-4 overflow-hidden rounded-full w-40 h-40 mx-auto border-4 border-primary/20 group-hover:border-primary/50 transition">
+                <img 
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/jzOeXGUxDhafXhOi.jpeg" 
+                  alt="Dra Hemilly Samantha" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition"
+                />
+              </div>
+              <h3 className="font-bold text-lg text-foreground mb-1 display-font">Dra Hemilly Samantha</h3>
+              <p className="text-sm text-primary font-semibold mb-3">DIREITO TRABALHISTA</p>
+              <p className="text-sm text-foreground/70">Especialista em demissões injustas e verbas rescisórias</p>
+            </div>
+
+            {/* Bianca */}
+            <div className="text-center group">
+              <div className="mb-4 overflow-hidden rounded-full w-40 h-40 mx-auto border-4 border-primary/20 group-hover:border-primary/50 transition">
+                <img 
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/udziWzbJVCyDDADs.jpeg" 
+                  alt="Bianca" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition"
+                />
+              </div>
+              <h3 className="font-bold text-lg text-foreground mb-1 display-font">Bianca</h3>
+              <p className="text-sm text-primary font-semibold mb-3">ASSISTENTE</p>
+              <p className="text-sm text-foreground/70">Suporte administrativo e atendimento ao cliente</p>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <a href="/nossa-equipe" className="inline-block">
+              <Button size="lg" variant="outline" className="gap-2">
+                Conheça Melhor Nossa Equipe
+                <ArrowRight className="w-4 h-4" />
+              </Button>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 md:py-32 bg-white">
         <div className="container max-w-2xl text-center">
