@@ -216,6 +216,102 @@ export default function Home() {
         </div>
       </section>
 
+      {/* AI Innovation Section */}
+      <section className="py-20 md:py-32 bg-gradient-to-r from-primary/5 to-primary/10 border-t-2 border-primary/20">
+        <div className="container">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <div className="inline-block mb-4 px-4 py-2 bg-primary/20 rounded-full">
+                <p className="text-sm font-semibold text-primary">🤖 TECNOLOGIA JURÍDICA</p>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 display-font leading-tight">
+                Inteligência Artificial para Soluções Jurídicas
+              </h2>
+              <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
+                Utilizamos tecnologia de ponta em inteligência artificial focada especificamente em soluções jurídicas. Nossa abordagem inovadora combina a experiência humana com a precisão da IA para entregar resultados superiores.
+              </p>
+              
+              <div className="space-y-4 mb-8">
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                    <span className="text-xl">⚙️</span>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-foreground mb-1">Análise Inteligente de Casos</h3>
+                    <p className="text-sm text-foreground/70">IA analisa jurisprudência e precedentes para estratégias mais efetivas</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                    <span className="text-xl">📋</span>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-foreground mb-1">Documentação Otimizada</h3>
+                    <p className="text-sm text-foreground/70">Geração de peças processuais com precisão e conformidade legal</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                    <span className="text-xl">⚡</span>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-foreground mb-1">Resposta Mais Rápida</h3>
+                    <p className="text-sm text-foreground/70">Processamento acelerado de informações para atendimento ágil</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                    <span className="text-xl">🔍</span>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-foreground mb-1">Pesquisa Jurídica Avançada</h3>
+                    <p className="text-sm text-foreground/70">Busca inteligente em bases de dados jurídicas para melhor fundamentação</p>
+                  </div>
+                </div>
+              </div>
+              
+              <p className="text-sm text-foreground/60 mb-6">
+                ✓ Tecnologia desenvolvida especificamente para o setor jurídico
+              </p>
+              <p className="text-sm text-foreground/60">
+                ✓ Mantém sigilo profissional e conformidade com regulamentações
+              </p>
+            </div>
+            
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-primary/10">
+              <div className="space-y-6">
+                <div className="p-6 bg-gradient-to-br from-primary/5 to-primary/10 rounded-xl border border-primary/20">
+                  <div className="text-4xl mb-3">🚀</div>
+                  <h3 className="font-bold text-lg text-foreground mb-2">Inovação no Direito</h3>
+                  <p className="text-sm text-foreground/70">
+                    Somos um dos poucos escritórios na Zona Leste que utiliza IA avançada para potencializar nossas soluções jurídicas.
+                  </p>
+                </div>
+                
+                <div className="p-6 bg-gradient-to-br from-primary/5 to-primary/10 rounded-xl border border-primary/20">
+                  <div className="text-4xl mb-3">🧠</div>
+                  <h3 className="font-bold text-lg text-foreground mb-2">Precisão e Confiabilidade</h3>
+                  <p className="text-sm text-foreground/70">
+                    A IA complementa a expertise de nossos advogados, garantindo análises mais precisas e estratégias otimizadas.
+                  </p>
+                </div>
+                
+                <div className="p-6 bg-gradient-to-br from-primary/5 to-primary/10 rounded-xl border border-primary/20">
+                  <div className="text-4xl mb-3">💡</div>
+                  <h3 className="font-bold text-lg text-foreground mb-2">Melhor Resultado</h3>
+                  <p className="text-sm text-foreground/70">
+                    Combinamos experiência humana com tecnologia para oferecer soluções jurídicas de excelência.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Our Team Section */}
       <section className="py-20 md:py-32 bg-white">
         <div className="container">
