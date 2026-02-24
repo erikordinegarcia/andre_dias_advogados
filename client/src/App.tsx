@@ -13,6 +13,7 @@ import CorporatePage from "./pages/services/CorporatePage";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
 import Team from "./pages/Team";
+import LocalBusinessSchema from "./components/LocalBusinessSchema";
 
 
 function Router() {
@@ -46,6 +47,7 @@ function App() {
         defaultTheme="light"
         // switchable
       >
+        <LocalBusinessSchema />
         <TooltipProvider>
           <Toaster />
           <Router />

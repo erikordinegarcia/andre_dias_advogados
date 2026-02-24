@@ -1,0 +1,23 @@
+# robots.txt for André Dias Advogados
+# Permite que os buscadores indexem o site
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://www.andrediasadvogados.com.br/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay
+Crawl-delay: 1
