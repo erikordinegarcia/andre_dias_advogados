@@ -20,7 +20,7 @@ export default function Home() {
             <img 
               src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/OPLIhcZDbOGighKU.webp" 
               alt="André Dias Advogados Logo" 
-              className="h-16 w-auto"
+              className="h-20 w-auto"
             />
           </a>
           <nav className="hidden md:flex gap-8">
