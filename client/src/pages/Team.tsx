@@ -18,7 +18,7 @@ export default function Team() {
       specialties: ["Prisão em Flagrante", "Habeas Corpus", "Defesa Criminal"],
       bio: "Especialista em direito criminal com 16 anos de experiência. Dr André Dias é o fundador do escritório e lidera a área de defesa criminal. Atua em casos de alta complexidade e é reconhecido pela sua dedicação e resultados excepcionais em casos criminais.",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/KoYfZadciVVBxFaK.jpeg",
-      email: "andre@andrediasadvogados.com.br",
+      email: "atendimento@andrediasadvogados.com.br",
       phone: "+5511938059405"
     },
     {
@@ -27,7 +27,7 @@ export default function Team() {
       specialties: ["Demissões Injustas", "Verbas Rescisórias", "Danos Morais"],
       bio: "Dra Hemilly Samantha é especialista em direito trabalhista, com foco em demissões injustas, verbas rescisórias e casos de assédio moral. Conhecida por sua abordagem humanizada e resultados efetivos, defende os direitos dos trabalhadores com excelência e dedicação.",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/jzOeXGUxDhafXhOi.jpeg",
-      email: "carolina@andrediasadvogados.com.br",
+      email: "atendimento@andrediasadvogados.com.br",
       phone: "+551150506310"
     },
     {
@@ -36,7 +36,7 @@ export default function Team() {
       specialties: ["Direito Civil", "Direito de Família", "Direito Previdenciário"],
       bio: "Dr Wilson Gonçalves é especialista em direito civil, família e previdenciário. Com vasta experiência em ações de cobrança, indenizações por danos morais, questões contratuais, divórcios e questões previdenciárias. Seus casos têm alta taxa de sucesso.",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/vFUdDZKPlmQDogZy.png",
-      email: "fernando@andrediasadvogados.com.br",
+      email: "atendimento@andrediasadvogados.com.br",
       phone: "+551150506310"
     },
     {
@@ -45,7 +45,7 @@ export default function Team() {
       specialties: ["Suporte Administrativo", "Atendimento ao Cliente", "Documentação"],
       bio: "Bianca é assistente do escritório, responsável pelo suporte administrativo, atendimento ao cliente e documentação. Contribui para o funcionamento eficiente do escritório e para a melhor experiência dos clientes.",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/udziWzbJVCyDDADs.jpeg",
-      email: "isabella@andrediasadvogados.com.br",
+      email: "atendimento@andrediasadvogados.com.br",
       phone: "+551150506310"
     }
   ];
