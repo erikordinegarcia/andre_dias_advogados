@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { MessageCircle, Phone, ArrowRight, Shield, Users, Zap } from "lucide-react";
+import { MessageCircle, Phone, ArrowRight, Shield, Users, Zap, Gavel, Briefcase, Heart, Building2, FileText } from "lucide-react";
 
 export default function Home() {
   const handleWhatsAppGeral = () => {
@@ -84,7 +84,7 @@ export default function Home() {
             <a href="/direito-criminal" className="group">
               <Card className="p-6 h-full hover:shadow-lg transition cursor-pointer">
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
-                  <Shield className="w-6 h-6 text-primary" />
+                  <Gavel className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-2 display-font">Criminal</h3>
                 <p className="text-sm text-foreground/70 mb-4">
@@ -99,7 +99,7 @@ export default function Home() {
             <a href="/direito-trabalhista" className="group">
               <Card className="p-6 h-full hover:shadow-lg transition cursor-pointer">
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
-                  <Users className="w-6 h-6 text-primary" />
+                  <Briefcase className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-2 display-font">Trabalhista</h3>
                 <p className="text-sm text-foreground/70 mb-4">
@@ -114,7 +114,7 @@ export default function Home() {
             <a href="/direito-civel" className="group">
               <Card className="p-6 h-full hover:shadow-lg transition cursor-pointer">
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
-                  <Zap className="w-6 h-6 text-primary" />
+                  <FileText className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-2 display-font">Cível</h3>
                 <p className="text-sm text-foreground/70 mb-4">
@@ -129,7 +129,7 @@ export default function Home() {
             <a href="/direito-de-familia" className="group">
               <Card className="p-6 h-full hover:shadow-lg transition cursor-pointer">
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
-                  <Users className="w-6 h-6 text-primary" />
+                  <Heart className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-2 display-font">Família</h3>
                 <p className="text-sm text-foreground/70 mb-4">
@@ -144,7 +144,7 @@ export default function Home() {
             <a href="/direito-empresarial" className="group">
               <Card className="p-6 h-full hover:shadow-lg transition cursor-pointer">
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
-                  <Shield className="w-6 h-6 text-primary" />
+                  <Building2 className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-bold text-lg mb-2 display-font">Empresarial</h3>
                 <p className="text-sm text-foreground/70 mb-4">
