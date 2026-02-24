@@ -365,7 +365,7 @@ export default function Home() {
               <p className="text-foreground/80 mb-4 italic">
                 "Excelente atendimento! Conseguiram resolver meu caso de forma rápida e eficiente. Muito obrigado!"
               </p>
-              <p className="font-semibold text-foreground">Carlos Silva</p>
+              <p className="font-semibold text-foreground">Carlos Eduardo Silva</p>
               <p className="text-sm text-primary">Direito Criminal</p>
             </div>
 
@@ -376,7 +376,7 @@ export default function Home() {
               <p className="text-foreground/80 mb-4 italic">
                 "Profissionais competentes e dedicados. Consegui receber todas as verbas rescisórias que tinha direito."
               </p>
-              <p className="font-semibold text-foreground">Maria Santos</p>
+              <p className="font-semibold text-foreground">Maria Helena Santos</p>
               <p className="text-sm text-primary">Direito Trabalhista</p>
             </div>
 
@@ -387,7 +387,7 @@ export default function Home() {
               <p className="text-foreground/80 mb-4 italic">
                 "Melhor escritório que já contratei! Resolveram meu caso com muita profissionalismo e transparência."
               </p>
-              <p className="font-semibold text-foreground">João Oliveira</p>
+              <p className="font-semibold text-foreground">João Ricardo Oliveira</p>
               <p className="text-sm text-primary">Direito Cível</p>
             </div>
           </div>
