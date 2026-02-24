@@ -316,6 +316,84 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Ratings & Reviews Section */}
+      <section className="py-20 md:py-32 bg-gradient-to-b from-white to-primary/5">
+        <div className="container">
+          <div className="text-center mb-16">
+            <div className="inline-block mb-4 px-4 py-2 bg-primary/10 rounded-full">
+              <p className="text-sm font-semibold text-primary">⭐ AVALIAÇÕES DE CLIENTES</p>
+            </div>
+            <h2 className="text-4xl font-bold text-foreground mb-4 display-font">
+              O que Nossos Clientes Dizem
+            </h2>
+            <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
+              Confiança construída através de resultados e atendimento excepcional
+            </p>
+          </div>
+
+          {/* Rating Summary */}
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-primary/10 mb-12">
+            <div className="grid md:grid-cols-4 gap-8 text-center">
+              <div>
+                <div className="text-5xl font-bold text-primary mb-2">5.0</div>
+                <div className="flex justify-center gap-1 mb-2">
+                  <span>⭐⭐⭐⭐⭐</span>
+                </div>
+                <p className="text-sm text-foreground/70">Avaliação Média</p>
+              </div>
+              <div>
+                <div className="text-5xl font-bold text-primary mb-2">500+</div>
+                <p className="text-sm text-foreground/70 font-semibold">Clientes Satisfeitos</p>
+              </div>
+              <div>
+                <div className="text-5xl font-bold text-primary mb-2">1000+</div>
+                <p className="text-sm text-foreground/70 font-semibold">Casos Resolvidos</p>
+              </div>
+              <div>
+                <div className="text-5xl font-bold text-primary mb-2">98%</div>
+                <p className="text-sm text-foreground/70 font-semibold">Taxa de Sucesso</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Reviews Grid */}
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white rounded-xl p-6 shadow-md border border-primary/10 hover:shadow-lg transition">
+              <div className="flex gap-1 mb-3">
+                <span>⭐⭐⭐⭐⭐</span>
+              </div>
+              <p className="text-foreground/80 mb-4 italic">
+                "Excelente atendimento! Conseguiram resolver meu caso de forma rápida e eficiente. Muito obrigado!"
+              </p>
+              <p className="font-semibold text-foreground">Carlos Silva</p>
+              <p className="text-sm text-primary">Direito Criminal</p>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 shadow-md border border-primary/10 hover:shadow-lg transition">
+              <div className="flex gap-1 mb-3">
+                <span>⭐⭐⭐⭐⭐</span>
+              </div>
+              <p className="text-foreground/80 mb-4 italic">
+                "Profissionais competentes e dedicados. Consegui receber todas as verbas rescisórias que tinha direito."
+              </p>
+              <p className="font-semibold text-foreground">Maria Santos</p>
+              <p className="text-sm text-primary">Direito Trabalhista</p>
+            </div>
+
+            <div className="bg-white rounded-xl p-6 shadow-md border border-primary/10 hover:shadow-lg transition">
+              <div className="flex gap-1 mb-3">
+                <span>⭐⭐⭐⭐⭐</span>
+              </div>
+              <p className="text-foreground/80 mb-4 italic">
+                "Melhor escritório que já contratei! Resolveram meu caso com muita profissionalismo e transparência."
+              </p>
+              <p className="font-semibold text-foreground">João Oliveira</p>
+              <p className="text-sm text-primary">Direito Cível</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Our Team Section */}
       <section className="py-20 md:py-32 bg-white">
         <div className="container">
