@@ -10,6 +10,7 @@ import WorkPage from "./pages/services/WorkPage";
 import CivilPage from "./pages/services/CivilPage";
 import FamilyPage from "./pages/services/FamilyPage";
 import CorporatePage from "./pages/services/CorporatePage";
+import Testimonials from "./pages/Testimonials";
 
 
 function Router() {
@@ -21,6 +22,7 @@ function Router() {
       <Route path={"/direito-civel"} component={CivilPage} />
       <Route path={"/direito-de-familia"} component={FamilyPage} />
       <Route path={"/direito-empresarial"} component={CorporatePage} />
+      <Route path={"/depoimentos"} component={Testimonials} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
