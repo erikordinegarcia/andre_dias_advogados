@@ -89,7 +89,7 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-bold text-foreground mb-2 display-font">Localização</h3>
               <a 
-                href="https://www.google.com/maps/search/Rua+Aldeia+dos+Machacalis,+124,+Zona+Leste,+S%C3%A3o+Paulo,+SP" 
+                href="https://maps.google.com/?q=Rua+Aldeia+dos+Machacalis,+124,+S%C3%A3o+Paulo,+SP" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-foreground/70 hover:text-primary transition cursor-pointer block"
