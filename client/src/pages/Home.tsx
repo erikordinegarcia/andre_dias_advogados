@@ -17,10 +17,10 @@ export default function Home() {
       <header className="border-b border-border sticky top-0 z-50 bg-white/95 backdrop-blur">
         <div className="container py-8 flex items-center justify-between gap-8">
           <a href="/" className="flex items-center gap-2">
-            <img 
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/OPLIhcZDbOGighKU.webp" 
-              alt="André Dias Advogados Logo" 
-              className="h-64 w-auto object-contain"
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/OPLIhcZDbOGighKU.webp"
+              alt="André Dias Advogados Logo"
+              className="h-25 w-auto object-contain"
             />
           </a>
           <nav className="hidden md:flex gap-8 flex-1">
@@ -234,7 +234,7 @@ export default function Home() {
               <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
                 Utilizamos tecnologia de ponta em inteligência artificial focada especificamente em soluções jurídicas. Nossa abordagem inovadora combina a experiência humana com a precisão da IA para entregar resultados superiores.
               </p>
-              
+
               <div className="space-y-4 mb-8">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
@@ -245,7 +245,7 @@ export default function Home() {
                     <p className="text-sm text-foreground/70">IA analisa jurisprudência e precedentes para estratégias mais efetivas</p>
                   </div>
                 </div>
-                
+
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                     <span className="text-xl">📋</span>
@@ -255,7 +255,7 @@ export default function Home() {
                     <p className="text-sm text-foreground/70">Geração de peças processuais com precisão e conformidade legal</p>
                   </div>
                 </div>
-                
+
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                     <span className="text-xl">⚡</span>
@@ -265,7 +265,7 @@ export default function Home() {
                     <p className="text-sm text-foreground/70">Processamento acelerado de informações para atendimento ágil</p>
                   </div>
                 </div>
-                
+
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                     <span className="text-xl">🔍</span>
@@ -276,7 +276,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              
+
               <p className="text-sm text-foreground/60 mb-6">
                 ✓ Tecnologia desenvolvida especificamente para o setor jurídico
               </p>
@@ -284,7 +284,7 @@ export default function Home() {
                 ✓ Mantém sigilo profissional e conformidade com regulamentações
               </p>
             </div>
-            
+
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-primary/10">
               <div className="space-y-6">
                 <div className="p-6 bg-gradient-to-br from-primary/5 to-primary/10 rounded-xl border border-primary/20">
@@ -294,7 +294,7 @@ export default function Home() {
                     Somos um dos poucos escritórios na Zona Leste que utiliza IA avançada para potencializar nossas soluções jurídicas.
                   </p>
                 </div>
-                
+
                 <div className="p-6 bg-gradient-to-br from-primary/5 to-primary/10 rounded-xl border border-primary/20">
                   <div className="text-4xl mb-3">🧠</div>
                   <h3 className="font-bold text-lg text-foreground mb-2">Precisão e Confiabilidade</h3>
@@ -302,7 +302,7 @@ export default function Home() {
                     A IA complementa a expertise de nossos advogados, garantindo análises mais precisas e estratégias otimizadas.
                   </p>
                 </div>
-                
+
                 <div className="p-6 bg-gradient-to-br from-primary/5 to-primary/10 rounded-xl border border-primary/20">
                   <div className="text-4xl mb-3">💡</div>
                   <h3 className="font-bold text-lg text-foreground mb-2">Melhor Resultado</h3>
@@ -413,9 +413,9 @@ export default function Home() {
             {/* Dr André Dias */}
             <div className="text-center group">
               <div className="mb-4 overflow-hidden rounded-full w-40 h-40 mx-auto border-4 border-primary/20 group-hover:border-primary/50 transition">
-                <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/KoYfZadciVVBxFaK.jpeg" 
-                  alt="Dr André Dias" 
+                <img
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/KoYfZadciVVBxFaK.jpeg"
+                  alt="Dr André Dias"
                   className="w-full h-full object-cover group-hover:scale-105 transition"
                 />
               </div>
@@ -427,9 +427,9 @@ export default function Home() {
             {/* Dr Wilson Gonçalves */}
             <div className="text-center group">
               <div className="mb-4 overflow-hidden rounded-full w-40 h-40 mx-auto border-4 border-primary/20 group-hover:border-primary/50 transition">
-                <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/vFUdDZKPlmQDogZy.png" 
-                  alt="Dr Wilson Gonçalves" 
+                <img
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/vFUdDZKPlmQDogZy.png"
+                  alt="Dr Wilson Gonçalves"
                   className="w-full h-full object-cover group-hover:scale-105 transition"
                 />
               </div>
@@ -441,9 +441,9 @@ export default function Home() {
             {/* Dra Hemilly Samantha */}
             <div className="text-center group">
               <div className="mb-4 overflow-hidden rounded-full w-40 h-40 mx-auto border-4 border-primary/20 group-hover:border-primary/50 transition">
-                <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/jzOeXGUxDhafXhOi.jpeg" 
-                  alt="Dra Hemilly Samantha" 
+                <img
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/jzOeXGUxDhafXhOi.jpeg"
+                  alt="Dra Hemilly Samantha"
                   className="w-full h-full object-cover group-hover:scale-105 transition"
                 />
               </div>
@@ -455,9 +455,9 @@ export default function Home() {
             {/* Bianca */}
             <div className="text-center group">
               <div className="mb-4 overflow-hidden rounded-full w-40 h-40 mx-auto border-4 border-primary/20 group-hover:border-primary/50 transition">
-                <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/udziWzbJVCyDDADs.jpeg" 
-                  alt="Bianca" 
+                <img
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663378446436/udziWzbJVCyDDADs.jpeg"
+                  alt="Bianca"
                   className="w-full h-full object-cover group-hover:scale-105 transition"
                 />
               </div>
