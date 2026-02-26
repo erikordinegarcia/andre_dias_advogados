@@ -153,7 +153,7 @@ function vitePluginManusDebugCollector(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
 
 export default defineConfig({
-  base: "/andre_dias_advogados/",
+  base: process.env.NODE_ENV === "production" ? "/andre_dias_advogados/" : "/",
   plugins,
   resolve: {
     alias: {

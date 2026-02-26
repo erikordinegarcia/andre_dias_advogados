@@ -1,7 +1,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import { Route, Switch, Router as WouterRouter } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
@@ -18,20 +18,21 @@ import LocalBusinessSchema from "./components/LocalBusinessSchema";
 
 function Router() {
   return (
-    <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/direito-criminal"} component={CriminalPage} />
-      <Route path={"/direito-trabalhista"} component={WorkPage} />
-      <Route path={"/direito-civel"} component={CivilPage} />
-      <Route path={"/direito-de-familia"} component={FamilyPage} />
-      <Route path={"/direito-empresarial"} component={CorporatePage} />
-      <Route path={"/depoimentos"} component={Testimonials} />
-      <Route path={"/contato"} component={Contact} />
-      <Route path={"/nossa-equipe"} component={Team} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
-    </Switch>
+    <WouterRouter base={import.meta.env.PROD ? "/andre_dias_advogados" : ""}>
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/direito-criminal" component={CriminalPage} />
+        <Route path="/direito-trabalhista" component={WorkPage} />
+        <Route path="/direito-civel" component={CivilPage} />
+        <Route path="/direito-de-familia" component={FamilyPage} />
+        <Route path="/direito-empresarial" component={CorporatePage} />
+        <Route path="/depoimentos" component={Testimonials} />
+        <Route path="/contato" component={Contact} />
+        <Route path="/nossa-equipe" component={Team} />
+        <Route path="/404" component={NotFound} />
+        <Route component={NotFound} />
+      </Switch>
+    </WouterRouter>
   );
 }
 
