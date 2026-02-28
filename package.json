@@ -2,7 +2,6 @@
   "name": "andre_dias_advogados",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://erikordinegarcia.github.io/andre_dias_advogados/",
   "type": "module",
   "license": "MIT",
   "scripts": {
