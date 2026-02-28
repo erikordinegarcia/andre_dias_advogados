@@ -18,7 +18,7 @@ import LocalBusinessSchema from "./components/LocalBusinessSchema";
 
 function Router() {
   return (
-    <WouterRouter base={import.meta.env.PROD ? "/andre_dias_advogados" : ""}>
+    <WouterRouter base="/">
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/direito-criminal" component={CriminalPage} />
