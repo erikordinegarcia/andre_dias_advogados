@@ -11,7 +11,7 @@
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
     "format": "prettier --write .",
-    "deploy": "gh-pages -d dist/public"
+    "deploy": "VITE_BASE_PATH=/andre_dias_advogados/ vite build && gh-pages -d dist/public"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
