@@ -72,13 +72,48 @@ export default function Team() {
             André Dias Advogados
           </a>
           <nav className="hidden md:flex gap-8">
-            <a href="/" className="text-sm text-foreground hover:text-primary transition">Home</a>
-            <a href="/direito-criminal" className="text-sm text-foreground hover:text-primary transition">Criminal</a>
-            <a href="/direito-trabalhista" className="text-sm text-foreground hover:text-primary transition">Trabalhista</a>
-            <a href="/direito-civel" className="text-sm text-foreground hover:text-primary transition">Cível</a>
-            <a href="/direito-de-familia" className="text-sm text-foreground hover:text-primary transition">Família</a>
-            <a href="/direito-empresarial" className="text-sm text-foreground hover:text-primary transition">Empresarial</a>
-            <a href="/nossa-equipe" className="text-sm text-primary font-semibold">Nossa Equipe</a>
+            <a
+              href="/"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Home
+            </a>
+            <a
+              href="/direito-criminal"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Criminal
+            </a>
+            <a
+              href="/direito-trabalhista"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Trabalhista
+            </a>
+            <a
+              href="/direito-civel"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Cível
+            </a>
+            <a
+              href="/direito-de-familia"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Família
+            </a>
+            <a
+              href="/direito-empresarial"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Empresarial
+            </a>
+            <a
+              href="/nossa-equipe"
+              className="text-sm text-primary font-semibold"
+            >
+              Nossa Equipe
+            </a>
           </nav>
           <Button onClick={handleWhatsApp} size="sm" className="gap-2">
             <MessageCircle className="w-4 h-4" />
@@ -95,14 +130,21 @@ export default function Team() {
               Nossa Equipe
             </h1>
             <p className="text-lg text-foreground/80 mb-8">
-              Conheça os advogados especializados que compõem o escritório André Dias. Profissionais dedicados com experiência comprovada em suas áreas de atuação.
+              Conheça os advogados especializados que compõem o escritório André
+              Dias. Profissionais dedicados com experiência comprovada em suas
+              áreas de atuação.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" onClick={handleWhatsApp} className="gap-2">
                 <MessageCircle className="w-5 h-5" />
                 Fale no WhatsApp
               </Button>
-              <Button size="lg" variant="outline" onClick={handlePhone} className="gap-2">
+              <Button
+                size="lg"
+                variant="outline"
+                onClick={handlePhone}
+                className="gap-2"
+              >
                 <Phone className="w-5 h-5" />
                 Ligar Agora
               </Button>
@@ -119,7 +161,8 @@ export default function Team() {
               Profissionais Experientes
             </h2>
             <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-              Cada membro da nossa equipe traz anos de experiência e dedicação ao direito, garantindo o melhor atendimento para seus casos.
+              Cada membro da nossa equipe traz anos de experiência e dedicação
+              ao direito, garantindo o melhor atendimento para seus casos.
             </p>
           </div>
 
@@ -148,27 +191,39 @@ export default function Team() {
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="font-bold text-lg text-foreground mb-3 display-font">Experiência Comprovada</h3>
+              <h3 className="font-bold text-lg text-foreground mb-3 display-font">
+                Experiência Comprovada
+              </h3>
               <p className="text-foreground/70">
-                Nossos advogados possuem mais de 10 anos de experiência cada um, com histórico de sucesso em diversos tipos de casos.
+                Nossos advogados possuem mais de 10 anos de experiência cada um,
+                com histórico de sucesso em diversos tipos de casos.
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-lg text-foreground mb-3 display-font">Especialização Profunda</h3>
+              <h3 className="font-bold text-lg text-foreground mb-3 display-font">
+                Especialização Profunda
+              </h3>
               <p className="text-foreground/70">
-                Cada membro da equipe é especializado em sua área específica, garantindo conhecimento profundo e atualizado.
+                Cada membro da equipe é especializado em sua área específica,
+                garantindo conhecimento profundo e atualizado.
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-lg text-foreground mb-3 display-font">Atendimento Personalizado</h3>
+              <h3 className="font-bold text-lg text-foreground mb-3 display-font">
+                Atendimento Personalizado
+              </h3>
               <p className="text-foreground/70">
-                Tratamos cada cliente como único, desenvolvendo estratégias personalizadas para seus casos específicos.
+                Tratamos cada cliente como único, desenvolvendo estratégias
+                personalizadas para seus casos específicos.
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-lg text-foreground mb-3 display-font">Resultados Efetivos</h3>
+              <h3 className="font-bold text-lg text-foreground mb-3 display-font">
+                Resultados Efetivos
+              </h3>
               <p className="text-foreground/70">
-                Nossa equipe é comprometida em alcançar os melhores resultados possíveis para nossos clientes.
+                Nossa equipe é comprometida em alcançar os melhores resultados
+                possíveis para nossos clientes.
               </p>
             </div>
           </div>
@@ -182,14 +237,20 @@ export default function Team() {
             Pronto para Conversar com Nossa Equipe?
           </h2>
           <p className="text-lg text-foreground/70 mb-8">
-            Entre em contato conosco para uma consulta especializada com um de nossos advogados.
+            Entre em contato conosco para uma consulta especializada com um de
+            nossos advogados.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" onClick={handleWhatsApp} className="gap-2">
               <MessageCircle className="w-5 h-5" />
               Enviar Mensagem WhatsApp
             </Button>
-            <Button size="lg" variant="outline" onClick={handlePhone} className="gap-2">
+            <Button
+              size="lg"
+              variant="outline"
+              onClick={handlePhone}
+              className="gap-2"
+            >
               <Phone className="w-5 h-5" />
               Ligar Agora
             </Button>
@@ -202,44 +263,120 @@ export default function Team() {
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h4 className="font-bold text-foreground mb-4 display-font">André Dias Advogados</h4>
-              <p className="text-sm text-foreground/70">Advocacia especializada com 16 anos de experiência na Zona Leste de São Paulo.</p>
-            </div>
-            <div>
-              <h4 className="font-bold text-foreground mb-4 display-font">Áreas de Atuação</h4>
-              <ul className="space-y-2 text-sm text-foreground/70">
-                <li><a href="/direito-criminal" className="hover:text-primary transition">Direito Criminal</a></li>
-                <li><a href="/direito-trabalhista" className="hover:text-primary transition">Direito Trabalhista</a></li>
-                <li><a href="/direito-civel" className="hover:text-primary transition">Direito Cível</a></li>
-                <li><a href="/direito-de-familia" className="hover:text-primary transition">Direito de Família</a></li>
-                <li><a href="/direito-empresarial" className="hover:text-primary transition">Direito Empresarial</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold text-foreground mb-4 display-font">Contato</h4>
-              <ul className="space-y-2 text-sm text-foreground/70">
-                <li><a href="tel:+5511938059405" className="hover:text-primary transition">🚨 Criminal: (11) 9 3805-9405</a></li>
-                <li><a href="tel:+551150506310" className="hover:text-primary transition">📞 Demais Áreas: (11) 5050-6310</a></li>
-                <li><a href="https://wa.me/5511938059405" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition">💬 WhatsApp</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold text-foreground mb-4 display-font">Localização</h4>
+              <h4 className="font-bold text-foreground mb-4 display-font">
+                André Dias Advogados
+              </h4>
               <p className="text-sm text-foreground/70">
-                Rua Aldeia dos Machacális, 124<br />
-                Zona Leste - São Paulo/SP<br />
-                CEP: 03000-000
+                Advocacia especializada com 16 anos de experiência na Zona Leste
+                de São Paulo.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-bold text-foreground mb-4 display-font">
+                Áreas de Atuação
+              </h4>
+              <ul className="space-y-2 text-sm text-foreground/70">
+                <li>
+                  <a
+                    href="/direito-criminal"
+                    className="hover:text-primary transition"
+                  >
+                    Direito Criminal
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/direito-trabalhista"
+                    className="hover:text-primary transition"
+                  >
+                    Direito Trabalhista
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/direito-civel"
+                    className="hover:text-primary transition"
+                  >
+                    Direito Cível
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/direito-de-familia"
+                    className="hover:text-primary transition"
+                  >
+                    Direito de Família
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/direito-empresarial"
+                    className="hover:text-primary transition"
+                  >
+                    Direito Empresarial
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold text-foreground mb-4 display-font">
+                Contato
+              </h4>
+              <ul className="space-y-2 text-sm text-foreground/70">
+                <li>
+                  <a
+                    href="tel:+5511938059405"
+                    className="hover:text-primary transition"
+                  >
+                    🚨 Criminal: (11) 9 3805-9405
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="tel:+551150506310"
+                    className="hover:text-primary transition"
+                  >
+                    📞 Demais Áreas: (11) 5050-6310
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://wa.me/5511938059405"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary transition"
+                  >
+                    💬 WhatsApp
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold text-foreground mb-4 display-font">
+                Localização
+              </h4>
+              <p className="text-sm text-foreground/70">
+                Rua Aldeia dos Machacális, 124
+                <br />
+                Zona Leste - São Paulo/SP
+                <br />
+                CEP: 08430-430
               </p>
             </div>
           </div>
           <div className="border-t border-border pt-8 text-center text-sm text-foreground/60">
-            <p>&copy; 2026 André Dias Advogados. Todos os direitos reservados.</p>
+            <p>
+              &copy; 2026 André Dias Advogados. Todos os direitos reservados.
+            </p>
           </div>
         </div>
       </footer>
 
       {/* Schema Markup for SEO */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(teamSchema)}} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(teamSchema) }}
+      />
     </div>
   );
 }

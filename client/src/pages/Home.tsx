@@ -24,14 +24,45 @@ export default function Home() {
             />
           </a>
           <nav className="hidden md:flex gap-8 flex-1">
-            <a href="/" className="text-sm text-primary font-semibold">Home</a>
-            <a href="/direito-criminal" className="text-sm text-foreground hover:text-primary transition">Criminal</a>
-            <a href="/direito-trabalhista" className="text-sm text-foreground hover:text-primary transition">Trabalhista</a>
-            <a href="/direito-civel" className="text-sm text-foreground hover:text-primary transition">Cível</a>
-            <a href="/direito-de-familia" className="text-sm text-foreground hover:text-primary transition">Família</a>
-            <a href="/direito-empresarial" className="text-sm text-foreground hover:text-primary transition">Empresarial</a>
+            <a href="/" className="text-sm text-primary font-semibold">
+              Home
+            </a>
+            <a
+              href="/direito-criminal"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Criminal
+            </a>
+            <a
+              href="/direito-trabalhista"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Trabalhista
+            </a>
+            <a
+              href="/direito-civel"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Cível
+            </a>
+            <a
+              href="/direito-de-familia"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Família
+            </a>
+            <a
+              href="/direito-empresarial"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Empresarial
+            </a>
           </nav>
-          <Button onClick={handleWhatsAppGeral} size="sm" className="gap-2 bg-green-500 hover:bg-green-600 text-white">
+          <Button
+            onClick={handleWhatsAppGeral}
+            size="sm"
+            className="gap-2 bg-green-500 hover:bg-green-600 text-white"
+          >
             <MessageCircle className="w-4 h-4" />
             WhatsApp
           </Button>
@@ -43,20 +74,32 @@ export default function Home() {
         <div className="container">
           <div className="max-w-3xl">
             <div className="inline-block mb-4 px-4 py-2 bg-primary/10 rounded-full">
-              <p className="text-sm font-semibold text-primary">✓ Advocacia Full Service em São Paulo</p>
+              <p className="text-sm font-semibold text-primary">
+                ✓ Advocacia Full Service em São Paulo
+              </p>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 display-font leading-tight">
               Sua defesa jurídica em São Paulo
             </h1>
             <p className="text-xl text-foreground/80 mb-8 leading-relaxed">
-              Especialistas em Direito Criminal, Trabalhista, Cível, Família e Empresarial. 16 anos de experiência defendendo seus direitos com excelência e dedicação.
+              Especialistas em Direito Criminal, Trabalhista, Cível, Família e
+              Empresarial. 16 anos de experiência defendendo seus direitos com
+              excelência e dedicação.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" onClick={handleWhatsAppGeral} className="gap-2 bg-green-500 hover:bg-green-600 text-white">
+              <Button
+                size="lg"
+                onClick={handleWhatsAppGeral}
+                className="gap-2 bg-green-500 hover:bg-green-600 text-white"
+              >
                 <MessageCircle className="w-5 h-5" />
                 Fale no WhatsApp
               </Button>
-              <Button size="lg" onClick={handleWhatsAppCriminal} className="gap-2 bg-red-600 hover:bg-red-700 text-white">
+              <Button
+                size="lg"
+                onClick={handleWhatsAppCriminal}
+                className="gap-2 bg-red-600 hover:bg-red-700 text-white"
+              >
                 <MessageCircle className="w-5 h-5" />
                 CRIMINAL 24 HORAS
               </Button>
@@ -76,7 +119,8 @@ export default function Home() {
               Nossas Especialidades
             </h2>
             <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-              Atuamos em todas as áreas do direito, oferecendo soluções completas para indivíduos e empresas
+              Atuamos em todas as áreas do direito, oferecendo soluções
+              completas para indivíduos e empresas
             </p>
           </div>
 
@@ -86,7 +130,9 @@ export default function Home() {
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
                   <Gavel className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-bold text-base mb-2 display-font">Criminal</h3>
+                <h3 className="font-bold text-base mb-2 display-font">
+                  Criminal
+                </h3>
                 <p className="text-sm text-foreground/70 mb-4">
                   Defesa em prisões em flagrante, habeas corpus e recursos
                 </p>
@@ -101,7 +147,9 @@ export default function Home() {
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
                   <Briefcase className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-bold text-base mb-2 display-font">Trabalhista</h3>
+                <h3 className="font-bold text-base mb-2 display-font">
+                  Trabalhista
+                </h3>
                 <p className="text-sm text-foreground/70 mb-4">
                   Demissões injustas, horas extras e assédio moral
                 </p>
@@ -131,7 +179,9 @@ export default function Home() {
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
                   <Heart className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-bold text-base mb-2 display-font">Família</h3>
+                <h3 className="font-bold text-base mb-2 display-font">
+                  Família
+                </h3>
                 <p className="text-sm text-foreground/70 mb-4">
                   Divórcio, guarda e pensão alimentícia
                 </p>
@@ -146,7 +196,9 @@ export default function Home() {
                 <div className="mb-4 p-3 bg-primary/10 rounded-lg w-fit group-hover:bg-primary/20 transition">
                   <Building2 className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-bold text-base mb-2 display-font">Empresarial</h3>
+                <h3 className="font-bold text-base mb-2 display-font">
+                  Empresarial
+                </h3>
                 <p className="text-sm text-foreground/70 mb-4">
                   Contratos, compliance e consultoria
                 </p>
@@ -171,49 +223,67 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-8">
               <div className="mb-4 text-4xl">📊</div>
-              <h3 className="font-bold text-xl mb-3 display-font">16 Anos de Experiência</h3>
+              <h3 className="font-bold text-xl mb-3 display-font">
+                16 Anos de Experiência
+              </h3>
               <p className="text-foreground/70">
-                Trajetória consolidada defendendo direitos de indivíduos e empresas na Zona Leste de São Paulo.
+                Trajetória consolidada defendendo direitos de indivíduos e
+                empresas na Zona Leste de São Paulo.
               </p>
             </Card>
 
             <Card className="p-8">
               <div className="mb-4 text-4xl">🎯</div>
-              <h3 className="font-bold text-xl mb-3 display-font">Especialização Completa</h3>
+              <h3 className="font-bold text-xl mb-3 display-font">
+                Especialização Completa
+              </h3>
               <p className="text-foreground/70">
-                Atuação full service em todas as principais áreas do direito com expertise aprofundada.
+                Atuação full service em todas as principais áreas do direito com
+                expertise aprofundada.
               </p>
             </Card>
 
             <Card className="p-8">
               <div className="mb-4 text-4xl">⚡</div>
-              <h3 className="font-bold text-xl mb-3 display-font">Atendimento 24 Horas</h3>
+              <h3 className="font-bold text-xl mb-3 display-font">
+                Atendimento 24 Horas
+              </h3>
               <p className="text-foreground/70">
-                Disponibilidade para emergências criminais e atendimento ágil em todas as situações.
+                Disponibilidade para emergências criminais e atendimento ágil em
+                todas as situações.
               </p>
             </Card>
 
             <Card className="p-8">
               <div className="mb-4 text-4xl">🔒</div>
-              <h3 className="font-bold text-xl mb-3 display-font">Sigilo Profissional</h3>
+              <h3 className="font-bold text-xl mb-3 display-font">
+                Sigilo Profissional
+              </h3>
               <p className="text-foreground/70">
-                Confidencialidade garantida em todas as consultas e processos jurídicos.
+                Confidencialidade garantida em todas as consultas e processos
+                jurídicos.
               </p>
             </Card>
 
             <Card className="p-8">
               <div className="mb-4 text-4xl">📍</div>
-              <h3 className="font-bold text-xl mb-3 display-font">Localização Estratégica</h3>
+              <h3 className="font-bold text-xl mb-3 display-font">
+                Localização Estratégica
+              </h3>
               <p className="text-foreground/70">
-                Escritório na Zona Leste com fácil acesso e atendimento presencial ou online.
+                Escritório na Zona Leste com fácil acesso e atendimento
+                presencial ou online.
               </p>
             </Card>
 
             <Card className="p-8">
               <div className="mb-4 text-4xl">💼</div>
-              <h3 className="font-bold text-xl mb-3 display-font">Resultado Orientado</h3>
+              <h3 className="font-bold text-xl mb-3 display-font">
+                Resultado Orientado
+              </h3>
               <p className="text-foreground/70">
-                Foco em soluções efetivas e maximização de direitos para cada cliente.
+                Foco em soluções efetivas e maximização de direitos para cada
+                cliente.
               </p>
             </Card>
           </div>
@@ -226,13 +296,18 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block mb-4 px-4 py-2 bg-primary/20 rounded-full">
-                <p className="text-sm font-semibold text-primary">🤖 TECNOLOGIA JURÍDICA</p>
+                <p className="text-sm font-semibold text-primary">
+                  🤖 TECNOLOGIA JURÍDICA
+                </p>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 display-font leading-tight">
                 Inteligência Artificial para Soluções Jurídicas
               </h2>
               <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
-                Utilizamos tecnologia de ponta em inteligência artificial focada especificamente em soluções jurídicas. Nossa abordagem inovadora combina a experiência humana com a precisão da IA para entregar resultados superiores.
+                Utilizamos tecnologia de ponta em inteligência artificial focada
+                especificamente em soluções jurídicas. Nossa abordagem inovadora
+                combina a experiência humana com a precisão da IA para entregar
+                resultados superiores.
               </p>
 
               <div className="space-y-4 mb-8">
@@ -241,8 +316,13 @@ export default function Home() {
                     <span className="text-xl">⚙️</span>
                   </div>
                   <div>
-                    <h3 className="font-bold text-foreground mb-1">Análise Inteligente de Casos</h3>
-                    <p className="text-sm text-foreground/70">IA analisa jurisprudência e precedentes para estratégias mais efetivas</p>
+                    <h3 className="font-bold text-foreground mb-1">
+                      Análise Inteligente de Casos
+                    </h3>
+                    <p className="text-sm text-foreground/70">
+                      IA analisa jurisprudência e precedentes para estratégias
+                      mais efetivas
+                    </p>
                   </div>
                 </div>
 
@@ -251,8 +331,13 @@ export default function Home() {
                     <span className="text-xl">📋</span>
                   </div>
                   <div>
-                    <h3 className="font-bold text-foreground mb-1">Documentação Otimizada</h3>
-                    <p className="text-sm text-foreground/70">Geração de peças processuais com precisão e conformidade legal</p>
+                    <h3 className="font-bold text-foreground mb-1">
+                      Documentação Otimizada
+                    </h3>
+                    <p className="text-sm text-foreground/70">
+                      Geração de peças processuais com precisão e conformidade
+                      legal
+                    </p>
                   </div>
                 </div>
 
@@ -261,8 +346,13 @@ export default function Home() {
                     <span className="text-xl">⚡</span>
                   </div>
                   <div>
-                    <h3 className="font-bold text-foreground mb-1">Resposta Mais Rápida</h3>
-                    <p className="text-sm text-foreground/70">Processamento acelerado de informações para atendimento ágil</p>
+                    <h3 className="font-bold text-foreground mb-1">
+                      Resposta Mais Rápida
+                    </h3>
+                    <p className="text-sm text-foreground/70">
+                      Processamento acelerado de informações para atendimento
+                      ágil
+                    </p>
                   </div>
                 </div>
 
@@ -271,8 +361,13 @@ export default function Home() {
                     <span className="text-xl">🔍</span>
                   </div>
                   <div>
-                    <h3 className="font-bold text-foreground mb-1">Pesquisa Jurídica Avançada</h3>
-                    <p className="text-sm text-foreground/70">Busca inteligente em bases de dados jurídicas para melhor fundamentação</p>
+                    <h3 className="font-bold text-foreground mb-1">
+                      Pesquisa Jurídica Avançada
+                    </h3>
+                    <p className="text-sm text-foreground/70">
+                      Busca inteligente em bases de dados jurídicas para melhor
+                      fundamentação
+                    </p>
                   </div>
                 </div>
               </div>
@@ -289,25 +384,34 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="p-6 bg-gradient-to-br from-primary/5 to-primary/10 rounded-xl border border-primary/20">
                   <div className="text-4xl mb-3">🚀</div>
-                  <h3 className="font-bold text-lg text-foreground mb-2">Inovação no Direito</h3>
+                  <h3 className="font-bold text-lg text-foreground mb-2">
+                    Inovação no Direito
+                  </h3>
                   <p className="text-sm text-foreground/70">
-                    Somos um dos poucos escritórios na Zona Leste que utiliza IA avançada para potencializar nossas soluções jurídicas.
+                    Somos um dos poucos escritórios na Zona Leste que utiliza IA
+                    avançada para potencializar nossas soluções jurídicas.
                   </p>
                 </div>
 
                 <div className="p-6 bg-gradient-to-br from-primary/5 to-primary/10 rounded-xl border border-primary/20">
                   <div className="text-4xl mb-3">🧠</div>
-                  <h3 className="font-bold text-lg text-foreground mb-2">Precisão e Confiabilidade</h3>
+                  <h3 className="font-bold text-lg text-foreground mb-2">
+                    Precisão e Confiabilidade
+                  </h3>
                   <p className="text-sm text-foreground/70">
-                    A IA complementa a expertise de nossos advogados, garantindo análises mais precisas e estratégias otimizadas.
+                    A IA complementa a expertise de nossos advogados, garantindo
+                    análises mais precisas e estratégias otimizadas.
                   </p>
                 </div>
 
                 <div className="p-6 bg-gradient-to-br from-primary/5 to-primary/10 rounded-xl border border-primary/20">
                   <div className="text-4xl mb-3">💡</div>
-                  <h3 className="font-bold text-lg text-foreground mb-2">Melhor Resultado</h3>
+                  <h3 className="font-bold text-lg text-foreground mb-2">
+                    Melhor Resultado
+                  </h3>
                   <p className="text-sm text-foreground/70">
-                    Combinamos experiência humana com tecnologia para oferecer soluções jurídicas de excelência.
+                    Combinamos experiência humana com tecnologia para oferecer
+                    soluções jurídicas de excelência.
                   </p>
                 </div>
               </div>
@@ -321,13 +425,16 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-16">
             <div className="inline-block mb-4 px-4 py-2 bg-primary/10 rounded-full">
-              <p className="text-sm font-semibold text-primary">⭐ AVALIAÇÕES DE CLIENTES</p>
+              <p className="text-sm font-semibold text-primary">
+                ⭐ AVALIAÇÕES DE CLIENTES
+              </p>
             </div>
             <h2 className="text-4xl font-bold text-foreground mb-4 display-font">
               O que Nossos Clientes Dizem
             </h2>
             <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-              Confiança construída através de resultados e atendimento excepcional
+              Confiança construída através de resultados e atendimento
+              excepcional
             </p>
           </div>
 
@@ -343,15 +450,23 @@ export default function Home() {
               </div>
               <div>
                 <div className="text-5xl font-bold text-primary mb-2">500+</div>
-                <p className="text-sm text-foreground/70 font-semibold">Clientes Satisfeitos</p>
+                <p className="text-sm text-foreground/70 font-semibold">
+                  Clientes Satisfeitos
+                </p>
               </div>
               <div>
-                <div className="text-5xl font-bold text-primary mb-2">1000+</div>
-                <p className="text-sm text-foreground/70 font-semibold">Casos Resolvidos</p>
+                <div className="text-5xl font-bold text-primary mb-2">
+                  1000+
+                </div>
+                <p className="text-sm text-foreground/70 font-semibold">
+                  Casos Resolvidos
+                </p>
               </div>
               <div>
                 <div className="text-5xl font-bold text-primary mb-2">98%</div>
-                <p className="text-sm text-foreground/70 font-semibold">Taxa de Sucesso</p>
+                <p className="text-sm text-foreground/70 font-semibold">
+                  Taxa de Sucesso
+                </p>
               </div>
             </div>
           </div>
@@ -363,9 +478,12 @@ export default function Home() {
                 <span>⭐⭐⭐⭐⭐</span>
               </div>
               <p className="text-foreground/80 mb-4 italic">
-                "Excelente atendimento! Conseguiram resolver meu caso de forma rápida e eficiente. Muito obrigado!"
+                "Excelente atendimento! Conseguiram resolver meu caso de forma
+                rápida e eficiente. Muito obrigado!"
               </p>
-              <p className="font-semibold text-foreground">Carlos Eduardo Silva</p>
+              <p className="font-semibold text-foreground">
+                Carlos Eduardo Silva
+              </p>
               <p className="text-sm text-primary">Direito Criminal</p>
             </div>
 
@@ -374,9 +492,12 @@ export default function Home() {
                 <span>⭐⭐⭐⭐⭐</span>
               </div>
               <p className="text-foreground/80 mb-4 italic">
-                "Profissionais competentes e dedicados. Consegui receber todas as verbas rescisórias que tinha direito."
+                "Profissionais competentes e dedicados. Consegui receber todas
+                as verbas rescisórias que tinha direito."
               </p>
-              <p className="font-semibold text-foreground">Maria Helena Santos</p>
+              <p className="font-semibold text-foreground">
+                Maria Helena Santos
+              </p>
               <p className="text-sm text-primary">Direito Trabalhista</p>
             </div>
 
@@ -385,9 +506,12 @@ export default function Home() {
                 <span>⭐⭐⭐⭐⭐</span>
               </div>
               <p className="text-foreground/80 mb-4 italic">
-                "Melhor escritório que já contratei! Resolveram meu caso com muita profissionalismo e transparência."
+                "Melhor escritório que já contratei! Resolveram meu caso com
+                muita profissionalismo e transparência."
               </p>
-              <p className="font-semibold text-foreground">João Ricardo Oliveira</p>
+              <p className="font-semibold text-foreground">
+                João Ricardo Oliveira
+              </p>
               <p className="text-sm text-primary">Direito Cível</p>
             </div>
           </div>
@@ -399,7 +523,9 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-16">
             <div className="inline-block mb-4 px-4 py-2 bg-primary/10 rounded-full">
-              <p className="text-sm font-semibold text-primary">👥 NOSSA EQUIPE</p>
+              <p className="text-sm font-semibold text-primary">
+                👥 NOSSA EQUIPE
+              </p>
             </div>
             <h2 className="text-4xl font-bold text-foreground mb-4 display-font">
               Conheça os Especialistas
@@ -419,9 +545,15 @@ export default function Home() {
                   className="w-full h-full object-cover group-hover:scale-105 transition"
                 />
               </div>
-              <h3 className="font-bold text-lg text-foreground mb-1 display-font">Dr André Dias</h3>
-              <p className="text-sm text-primary font-semibold mb-3">DIREITO CRIMINAL</p>
-              <p className="text-sm text-foreground/70">Especialista em defesa criminal com casos de alta complexidade</p>
+              <h3 className="font-bold text-lg text-foreground mb-1 display-font">
+                Dr André Dias
+              </h3>
+              <p className="text-sm text-primary font-semibold mb-3">
+                DIREITO CRIMINAL
+              </p>
+              <p className="text-sm text-foreground/70">
+                Especialista em defesa criminal com casos de alta complexidade
+              </p>
             </div>
 
             {/* Dr Wilson Gonçalves */}
@@ -433,9 +565,15 @@ export default function Home() {
                   className="w-full h-full object-cover group-hover:scale-105 transition"
                 />
               </div>
-              <h3 className="font-bold text-lg text-foreground mb-1 display-font">Dr Wilson Gonçalves</h3>
-              <p className="text-sm text-primary font-semibold mb-3">DIREITO CIVIL, FAMÍLIA E PREVIDENCIÁRIO</p>
-              <p className="text-sm text-foreground/70">Especialista em ações de cobrança e questões familiares</p>
+              <h3 className="font-bold text-lg text-foreground mb-1 display-font">
+                Dr Wilson Gonçalves
+              </h3>
+              <p className="text-sm text-primary font-semibold mb-3">
+                DIREITO CIVIL, FAMÍLIA E PREVIDENCIÁRIO
+              </p>
+              <p className="text-sm text-foreground/70">
+                Especialista em ações de cobrança e questões familiares
+              </p>
             </div>
 
             {/* Dra Hemilly Samantha */}
@@ -447,9 +585,15 @@ export default function Home() {
                   className="w-full h-full object-cover group-hover:scale-105 transition"
                 />
               </div>
-              <h3 className="font-bold text-lg text-foreground mb-1 display-font">Dra Hemilly Samantha</h3>
-              <p className="text-sm text-primary font-semibold mb-3">DIREITO TRABALHISTA</p>
-              <p className="text-sm text-foreground/70">Especialista em demissões injustas e verbas rescisórias</p>
+              <h3 className="font-bold text-lg text-foreground mb-1 display-font">
+                Dra Hemilly Samantha
+              </h3>
+              <p className="text-sm text-primary font-semibold mb-3">
+                DIREITO TRABALHISTA
+              </p>
+              <p className="text-sm text-foreground/70">
+                Especialista em demissões injustas e verbas rescisórias
+              </p>
             </div>
 
             {/* Bianca */}
@@ -461,9 +605,15 @@ export default function Home() {
                   className="w-full h-full object-cover group-hover:scale-105 transition"
                 />
               </div>
-              <h3 className="font-bold text-lg text-foreground mb-1 display-font">Bianca</h3>
-              <p className="text-sm text-primary font-semibold mb-3">ASSISTENTE</p>
-              <p className="text-sm text-foreground/70">Suporte administrativo e atendimento ao cliente</p>
+              <h3 className="font-bold text-lg text-foreground mb-1 display-font">
+                Bianca
+              </h3>
+              <p className="text-sm text-primary font-semibold mb-3">
+                ASSISTENTE
+              </p>
+              <p className="text-sm text-foreground/70">
+                Suporte administrativo e atendimento ao cliente
+              </p>
             </div>
           </div>
 
@@ -485,14 +635,23 @@ export default function Home() {
             Precisa de ajuda jurídica?
           </h2>
           <p className="text-lg text-foreground/70 mb-8">
-            Entre em contato conosco para uma consulta especializada. Temos soluções para sua situação.
+            Entre em contato conosco para uma consulta especializada. Temos
+            soluções para sua situação.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" onClick={handleWhatsAppGeral} className="gap-2 bg-green-500 hover:bg-green-600 text-white">
+            <Button
+              size="lg"
+              onClick={handleWhatsAppGeral}
+              className="gap-2 bg-green-500 hover:bg-green-600 text-white"
+            >
               <MessageCircle className="w-5 h-5" />
               Fale no WhatsApp
             </Button>
-            <Button size="lg" onClick={handleWhatsAppCriminal} className="gap-2 bg-red-600 hover:bg-red-700 text-white">
+            <Button
+              size="lg"
+              onClick={handleWhatsAppCriminal}
+              className="gap-2 bg-red-600 hover:bg-red-700 text-white"
+            >
               <MessageCircle className="w-5 h-5" />
               CRIMINAL 24 HORAS
             </Button>
@@ -505,66 +664,147 @@ export default function Home() {
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h4 className="font-bold text-foreground mb-4 display-font">André Dias Advogados</h4>
-              <p className="text-sm text-foreground/70">Advocacia especializada com 16 anos de experiência na Zona Leste de São Paulo.</p>
-            </div>
-            <div>
-              <h4 className="font-bold text-foreground mb-4 display-font">Áreas de Atuação</h4>
-              <ul className="space-y-2 text-sm text-foreground/70">
-                <li><a href="/direito-criminal" className="hover:text-primary transition">Direito Criminal</a></li>
-                <li><a href="/direito-trabalhista" className="hover:text-primary transition">Direito Trabalhista</a></li>
-                <li><a href="/direito-civel" className="hover:text-primary transition">Direito Cível</a></li>
-                <li><a href="/direito-de-familia" className="hover:text-primary transition">Direito de Família</a></li>
-                <li><a href="/direito-empresarial" className="hover:text-primary transition">Direito Empresarial</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold text-foreground mb-4 display-font">Contato</h4>
-              <ul className="space-y-2 text-sm text-foreground/70">
-                <li><a href="tel:+5511938059405" className="hover:text-primary transition">🚨 Criminal: (11) 9 3805-9405</a></li>
-                <li><a href="tel:+551150506310" className="hover:text-primary transition">📞 Demais Áreas: (11) 5050-6310</a></li>
-                <li><a href="https://wa.me/5511938059405" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition">💬 WhatsApp</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold text-foreground mb-4 display-font">Localização</h4>
+              <h4 className="font-bold text-foreground mb-4 display-font">
+                André Dias Advogados
+              </h4>
               <p className="text-sm text-foreground/70">
-                Rua Aldeia dos Machacális, 124<br />
-                Zona Leste - São Paulo/SP<br />
-                CEP: 03000-000
+                Advocacia especializada com 16 anos de experiência na Zona Leste
+                de São Paulo.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-bold text-foreground mb-4 display-font">
+                Áreas de Atuação
+              </h4>
+              <ul className="space-y-2 text-sm text-foreground/70">
+                <li>
+                  <a
+                    href="/direito-criminal"
+                    className="hover:text-primary transition"
+                  >
+                    Direito Criminal
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/direito-trabalhista"
+                    className="hover:text-primary transition"
+                  >
+                    Direito Trabalhista
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/direito-civel"
+                    className="hover:text-primary transition"
+                  >
+                    Direito Cível
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/direito-de-familia"
+                    className="hover:text-primary transition"
+                  >
+                    Direito de Família
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/direito-empresarial"
+                    className="hover:text-primary transition"
+                  >
+                    Direito Empresarial
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold text-foreground mb-4 display-font">
+                Contato
+              </h4>
+              <ul className="space-y-2 text-sm text-foreground/70">
+                <li>
+                  <a
+                    href="tel:+5511938059405"
+                    className="hover:text-primary transition"
+                  >
+                    🚨 Criminal: (11) 9 3805-9405
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="tel:+551150506310"
+                    className="hover:text-primary transition"
+                  >
+                    📞 Demais Áreas: (11) 5050-6310
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://wa.me/5511938059405"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary transition"
+                  >
+                    💬 WhatsApp
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold text-foreground mb-4 display-font">
+                Localização
+              </h4>
+              <p className="text-sm text-foreground/70">
+                Rua Aldeia dos Machacális, 124
+                <br />
+                Zona Leste - São Paulo/SP
+                <br />
+                CEP: 08430-430
               </p>
             </div>
           </div>
           <div className="border-t border-border pt-8 text-center text-sm text-foreground/60">
-            <p>&copy; 2026 André Dias Advogados. Todos os direitos reservados.</p>
-            <p className="mt-2">Desenvolvido com excelência para sua defesa jurídica.</p>
+            <p>
+              &copy; 2026 André Dias Advogados. Todos os direitos reservados.
+            </p>
+            <p className="mt-2">
+              Desenvolvido com excelência para sua defesa jurídica.
+            </p>
           </div>
         </div>
       </footer>
 
       {/* Schema Markup for SEO */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "André Dias Advogados",
-        "description": "Escritório de advocacia full service em São Paulo com especialização em Direito Criminal, Trabalhista, Cível, Família e Empresarial.",
-        "url": "https://www.andrediasadvogados.com.br",
-        "telephone": "+5511938059405",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Rua Aldeia dos Machacális, 124",
-          "addressLocality": "São Paulo",
-          "addressRegion": "SP",
-          "postalCode": "03000-000",
-          "addressCountry": "BR"
-        },
-        "areaServed": ["São Paulo", "SP", "Zona Leste"],
-        "priceRange": "Consultar",
-        "sameAs": [
-          "https://www.facebook.com/andrediasadvogados",
-          "https://www.instagram.com/andrediasadvogados"
-        ]
-      })}} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            name: "André Dias Advogados",
+            description:
+              "Escritório de advocacia full service em São Paulo com especialização em Direito Criminal, Trabalhista, Cível, Família e Empresarial.",
+            url: "https://www.andrediasadvogados.com.br",
+            telephone: "+5511938059405",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "Rua Aldeia dos Machacális, 124",
+              addressLocality: "São Paulo",
+              addressRegion: "SP",
+              postalCode: "03000-000",
+              addressCountry: "BR",
+            },
+            areaServed: ["São Paulo", "SP", "Zona Leste"],
+            priceRange: "Consultar",
+            sameAs: [
+              "https://www.facebook.com/andrediasadvogados",
+              "https://www.instagram.com/andrediasadvogados",
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

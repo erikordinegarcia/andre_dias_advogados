@@ -112,13 +112,48 @@ export default function Testimonials() {
             André Dias Advogados
           </a>
           <nav className="hidden md:flex gap-8">
-            <a href="/" className="text-sm text-foreground hover:text-primary transition">Home</a>
-            <a href="/direito-criminal" className="text-sm text-foreground hover:text-primary transition">Criminal</a>
-            <a href="/direito-trabalhista" className="text-sm text-foreground hover:text-primary transition">Trabalhista</a>
-            <a href="/direito-civel" className="text-sm text-foreground hover:text-primary transition">Cível</a>
-            <a href="/direito-de-familia" className="text-sm text-foreground hover:text-primary transition">Família</a>
-            <a href="/direito-empresarial" className="text-sm text-foreground hover:text-primary transition">Empresarial</a>
-            <a href="/depoimentos" className="text-sm text-primary font-semibold">Depoimentos</a>
+            <a
+              href="/"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Home
+            </a>
+            <a
+              href="/direito-criminal"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Criminal
+            </a>
+            <a
+              href="/direito-trabalhista"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Trabalhista
+            </a>
+            <a
+              href="/direito-civel"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Cível
+            </a>
+            <a
+              href="/direito-de-familia"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Família
+            </a>
+            <a
+              href="/direito-empresarial"
+              className="text-sm text-foreground hover:text-primary transition"
+            >
+              Empresarial
+            </a>
+            <a
+              href="/depoimentos"
+              className="text-sm text-primary font-semibold"
+            >
+              Depoimentos
+            </a>
           </nav>
           <Button onClick={handleWhatsApp} size="sm" className="gap-2">
             <MessageCircle className="w-4 h-4" />
@@ -135,14 +170,21 @@ export default function Testimonials() {
               O que nossos clientes dizem
             </h1>
             <p className="text-lg text-foreground/80 mb-8">
-              Conheça as histórias de sucesso de clientes que confiaram em nosso escritório. Depoimentos reais de pessoas que tiveram seus direitos protegidos e problemas jurídicos resolvidos.
+              Conheça as histórias de sucesso de clientes que confiaram em nosso
+              escritório. Depoimentos reais de pessoas que tiveram seus direitos
+              protegidos e problemas jurídicos resolvidos.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" onClick={handleWhatsApp} className="gap-2">
                 <MessageCircle className="w-5 h-5" />
                 Fale no WhatsApp
               </Button>
-              <Button size="lg" variant="outline" onClick={handlePhone} className="gap-2">
+              <Button
+                size="lg"
+                variant="outline"
+                onClick={handlePhone}
+                className="gap-2"
+              >
                 <Phone className="w-5 h-5" />
                 Ligar Agora
               </Button>
@@ -159,7 +201,8 @@ export default function Testimonials() {
               Histórias de Sucesso
             </h2>
             <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-              Mais de 10 anos de experiência ajudando pessoas e empresas a resolver seus problemas jurídicos
+              Mais de 10 anos de experiência ajudando pessoas e empresas a
+              resolver seus problemas jurídicos
             </p>
           </div>
 
@@ -183,19 +226,27 @@ export default function Testimonials() {
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
-              <p className="text-4xl font-bold text-primary mb-2 display-font">16+</p>
+              <p className="text-4xl font-bold text-primary mb-2 display-font">
+                16+
+              </p>
               <p className="text-foreground/70">Anos de Experiência</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-primary mb-2 display-font">500+</p>
+              <p className="text-4xl font-bold text-primary mb-2 display-font">
+                500+
+              </p>
               <p className="text-foreground/70">Clientes Satisfeitos</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-primary mb-2 display-font">1000+</p>
+              <p className="text-4xl font-bold text-primary mb-2 display-font">
+                1000+
+              </p>
               <p className="text-foreground/70">Casos Resolvidos</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-primary mb-2 display-font">5.0★</p>
+              <p className="text-4xl font-bold text-primary mb-2 display-font">
+                5.0★
+              </p>
               <p className="text-foreground/70">Avaliação Média</p>
             </div>
           </div>
@@ -209,14 +260,20 @@ export default function Testimonials() {
             Você também pode ter sucesso
           </h2>
           <p className="text-lg text-foreground/70 mb-8">
-            Procure-nos para uma consulta especializada. Temos soluções para sua situação jurídica.
+            Procure-nos para uma consulta especializada. Temos soluções para sua
+            situação jurídica.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" onClick={handleWhatsApp} className="gap-2">
               <MessageCircle className="w-5 h-5" />
               Enviar Mensagem WhatsApp
             </Button>
-            <Button size="lg" variant="outline" onClick={handlePhone} className="gap-2">
+            <Button
+              size="lg"
+              variant="outline"
+              onClick={handlePhone}
+              className="gap-2"
+            >
               <Phone className="w-5 h-5" />
               Ligar Agora
             </Button>
@@ -229,44 +286,120 @@ export default function Testimonials() {
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h4 className="font-bold text-foreground mb-4 display-font">André Dias Advogados</h4>
-              <p className="text-sm text-foreground/70">Advocacia especializada com 16 anos de experiência na Zona Leste de São Paulo.</p>
-            </div>
-            <div>
-              <h4 className="font-bold text-foreground mb-4 display-font">Áreas de Atuação</h4>
-              <ul className="space-y-2 text-sm text-foreground/70">
-                <li><a href="/direito-criminal" className="hover:text-primary transition">Direito Criminal</a></li>
-                <li><a href="/direito-trabalhista" className="hover:text-primary transition">Direito Trabalhista</a></li>
-                <li><a href="/direito-civel" className="hover:text-primary transition">Direito Cível</a></li>
-                <li><a href="/direito-de-familia" className="hover:text-primary transition">Direito de Família</a></li>
-                <li><a href="/direito-empresarial" className="hover:text-primary transition">Direito Empresarial</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold text-foreground mb-4 display-font">Contato</h4>
-              <ul className="space-y-2 text-sm text-foreground/70">
-                <li><a href="tel:+5511938059405" className="hover:text-primary transition">🚨 Criminal: (11) 9 3805-9405</a></li>
-                <li><a href="tel:+551150506310" className="hover:text-primary transition">📞 Demais Áreas: (11) 5050-6310</a></li>
-                <li><a href="https://wa.me/5511938059405" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition">💬 WhatsApp</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold text-foreground mb-4 display-font">Localização</h4>
+              <h4 className="font-bold text-foreground mb-4 display-font">
+                André Dias Advogados
+              </h4>
               <p className="text-sm text-foreground/70">
-                Rua Aldeia dos Machacális, 124<br />
-                Zona Leste - São Paulo/SP<br />
-                CEP: 03000-000
+                Advocacia especializada com 16 anos de experiência na Zona Leste
+                de São Paulo.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-bold text-foreground mb-4 display-font">
+                Áreas de Atuação
+              </h4>
+              <ul className="space-y-2 text-sm text-foreground/70">
+                <li>
+                  <a
+                    href="/direito-criminal"
+                    className="hover:text-primary transition"
+                  >
+                    Direito Criminal
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/direito-trabalhista"
+                    className="hover:text-primary transition"
+                  >
+                    Direito Trabalhista
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/direito-civel"
+                    className="hover:text-primary transition"
+                  >
+                    Direito Cível
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/direito-de-familia"
+                    className="hover:text-primary transition"
+                  >
+                    Direito de Família
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/direito-empresarial"
+                    className="hover:text-primary transition"
+                  >
+                    Direito Empresarial
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold text-foreground mb-4 display-font">
+                Contato
+              </h4>
+              <ul className="space-y-2 text-sm text-foreground/70">
+                <li>
+                  <a
+                    href="tel:+5511938059405"
+                    className="hover:text-primary transition"
+                  >
+                    🚨 Criminal: (11) 9 3805-9405
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="tel:+551150506310"
+                    className="hover:text-primary transition"
+                  >
+                    📞 Demais Áreas: (11) 5050-6310
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://wa.me/5511938059405"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary transition"
+                  >
+                    💬 WhatsApp
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-bold text-foreground mb-4 display-font">
+                Localização
+              </h4>
+              <p className="text-sm text-foreground/70">
+                Rua Aldeia dos Machacális, 124
+                <br />
+                Zona Leste - São Paulo/SP
+                <br />
+                CEP: 08430-430
               </p>
             </div>
           </div>
           <div className="border-t border-border pt-8 text-center text-sm text-foreground/60">
-            <p>&copy; 2026 André Dias Advogados. Todos os direitos reservados.</p>
+            <p>
+              &copy; 2026 André Dias Advogados. Todos os direitos reservados.
+            </p>
           </div>
         </div>
       </footer>
 
       {/* Schema Markup for SEO */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(reviewSchema)}} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
+      />
     </div>
   );
 }

@@ -154,7 +154,7 @@ export default function Contact() {
                 <br />
                 Zona Leste - São Paulo/SP
                 <br />
-                CEP: 03000-000
+                CEP: 08430-430
               </a>
             </div>
 
@@ -212,7 +212,7 @@ export default function Contact() {
                       <h3 style="margin: 0 0 5px 0; font-size: 16px; font-weight: bold;">André Dias Advogados</h3>
                       <p style="margin: 0 0 3px 0; font-size: 13px;">Rua Aldeia dos Machacális, 124</p>
                       <p style="margin: 0 0 3px 0; font-size: 13px;">Zona Leste - São Paulo/SP</p>
-                      <p style="margin: 0 0 5px 0; font-size: 13px;">CEP: 03000-000</p>
+                      <p style="margin: 0 0 5px 0; font-size: 13px;">CEP: 08430-430</p>
                       <p style="margin: 0; font-size: 12px; color: #666;">
                         <strong>Criminal (24h):</strong> (11) 9 3805-9405<br/>
                         <strong>Demais Áreas:</strong> (11) 5050-6310
