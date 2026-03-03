@@ -756,13 +756,18 @@ export default function Home() {
               <h4 className="font-bold text-foreground mb-4 display-font">
                 Localização
               </h4>
-              <p className="text-sm text-foreground/70">
+              <a
+                href="https://maps.google.com/?q=Rua+Aldeia+dos+Machac%C3%A1lis,+124,+S%C3%A3o+Paulo,+SP"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-foreground/70 hover:text-primary transition"
+              >
                 Rua Aldeia dos Machacális, 124
                 <br />
                 Zona Leste - São Paulo/SP
                 <br />
                 CEP: 08430-430
-              </p>
+              </a>
             </div>
           </div>
           <div className="border-t border-border pt-8 text-center text-sm text-foreground/60">
